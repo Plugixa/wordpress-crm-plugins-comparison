@@ -1,0 +1,254 @@
+# Prose per plugin. `notes` and `texts` are keyed by feature id (see src/data/features.yaml).
+plugixa-crm:
+  summary: "Un CRM commercial et de service client qui fonctionne dans WordPress, avec entreprises, contacts, leads, affaires sur un tableau de pipeline, dossiers de support, base de connaissances, portail client et permissions d'équipe. Tout cela est dans la version gratuite ; Pro ajoute les champs personnalisés et des connecteurs vers d'autres logiciels."
+  award: Meilleur CRM commercial et de service client gratuit
+  best_for: "Les petites entreprises et les équipes qui ont besoin d'un vrai pipeline commercial, d'une file de support et d'accès par équipe dans WordPress, sans payer par utilisateur ni envoyer les données clients à un service hébergé."
+  status: "Nouveau plugin. La version 1.0.0 est publiée mais n'est pas encore référencée sur wordpress.org ; il n'a donc ni base d'installations ni avis publics."
+  pros:
+    - "Les entreprises, les affaires, plusieurs pipelines, un tableau kanban et des prévisions pondérées sont gratuits."
+    - "Les dossiers de support avec création depuis les e-mails, une base de connaissances et un portail client sont gratuits ; la plupart des concurrents font payer les fonctionnalités de support ou n'en ont pas."
+    - "Les rôles avec un accès tout, équipe, propre ou aucun par type de fiche, ainsi que des règles au niveau des champs, sont gratuits."
+    - "Les e-mails entrants via IMAP, les campagnes e-mail avec suivi des ouvertures et des clics, et les formulaires web-to-lead sont gratuits."
+    - "Les fiches sont stockées dans les propres tables de base de données du plugin sur votre site ; rien n'est envoyé à Plugixa."
+    - "Pro est une formule unique, à prix bas, pour un nombre illimité de sites."
+  cons:
+    - "Pas d'automatisation marketing, de séquences ni d'e-mails programmés en série."
+    - "Pas de devis ni de factures."
+    - "Les champs personnalisés, WooCommerce, les intégrations avec les plugins de formulaires et la synchronisation du calendrier sont dans Pro."
+    - "Moins d'intégrations que FluentCRM, Groundhogg ou Jetpack CRM."
+    - "Récent, sans historique pour l'instant et sans fiche sur wordpress.org."
+  notes:
+    records.contacts: "Un contact peut avoir plusieurs adresses e-mail et numéros de téléphone, dont un de chaque est marqué comme principal."
+    records.companies: "Des comptes avec une hiérarchie parent-enfant, et un lien vers les contacts qui enregistre le rôle de chaque personne."
+    records.custom_fields: "Dix types de champs sur les contacts, les comptes, les leads et les affaires."
+    pipeline.forecast: "Des prévisions de pipeline pondérées, un taux de réussite et les clôtures attendues par mois."
+    pipeline.lead_convert: "Un lead est converti en compte, en contact et en opportunité en une seule étape."
+    activities.calendar: "Vues mois, semaine et jour des tâches, appels et réunions, avec horaires de travail, jours fériés et disponibilités."
+    activities.email_send: "Envoyé depuis n'importe quelle fiche, avec modèles et champs de fusion."
+    activities.email_inbox: "Lit votre propre boîte de réception via IMAP. Les e-mails reçus peuvent créer automatiquement des dossiers de support."
+    marketing.newsletters: "Campagnes, listes cibles et envois groupés par lots, avec suivi des ouvertures et des clics sur votre propre domaine."
+    marketing.automation: "Les listes cibles sont statiques, et il n'y a pas d'outil de création de workflows ou de séquences."
+    marketing.forms: "Des formulaires web-to-lead sous forme de bloc ou de shortcode ; les soumissions arrivent comme des leads."
+    support.tickets: "Des dossiers de support avec statuts, priorités et types, attribués à tour de rôle ou à la personne la moins occupée."
+    support.knowledge_base: "Des articles classés dans une arborescence de catégories. Les articles marqués comme publics apparaissent dans un centre d'aide sur votre site."
+    support.portal: "Les clients voient leurs propres dossiers de support, les documents partagés, les réunions, les appels et les articles d'aide. Chaque panneau s'active séparément."
+    team.roles: "Des rôles par type de fiche et par action, chacun avec une portée tout, équipe, propre ou aucun."
+    team.field_permissions: "L'accès aux fiches est limité à celles de l'utilisateur, à celles de son équipe ou à toutes, et des champs isolés peuvent être masqués ou mis en lecture seule."
+    data.reports: "Un générateur de rapports avec graphiques sur les affaires, les leads, les réunions, les appels et les tâches, et des tableaux de bord à plusieurs onglets."
+    data.import_export: "Import CSV avec mise en correspondance des colonnes et annulation de l'import complet ; export CSV et Excel."
+    data.rest_api: "Environ 230 routes REST documentées, avec les mêmes règles de permissions que les écrans d'administration."
+    commerce.woocommerce: "Relie les clients WooCommerce et leur historique de commandes aux contacts."
+    commerce.invoices: "Il existe des modèles PDF pour toute fiche, mais pas de fiches de devis ni de factures."
+    integrations.form_plugins: "Formulaires Contact Form 7, WPForms, Gravity Forms et Elementor."
+    integrations.calendar_sync: "Calendriers Google Calendar et Microsoft 365."
+    extras.frontend_app: "Un shortcode place l'ensemble du CRM sur une page de votre site pour l'équipe, dans votre thème."
+  texts:
+    extras.storage: "Votre base de données WordPress, dans les propres tables du plugin"
+
+fluentcrm:
+  summary: "Un plugin auto-hébergé d'e-mailing et d'automatisation, avec un CRM de contacts, des fiches entreprises et des rapports de campagne. La version gratuite couvre les contacts, les campagnes et l'automatisation de base, et Pro ajoute les intégrations poussées avec d'autres plugins, les séquences et la segmentation avancée."
+  award: "Idéal pour l'automatisation de l'e-mailing"
+  best_for: "Les sites qui veulent des newsletters, de l'automatisation et des fiches contacts dans WordPress, en particulier les sites WooCommerce, LMS et d'abonnement. Ce n'est pas un outil de pipeline commercial."
+  pros:
+    - "Nombre illimité de contacts et d'e-mails dans toutes les formules, avec des prix fixés selon le nombre de sites et non la taille de la liste."
+    - "Les campagnes, la programmation, un module entreprises et les champs personnalisés sont gratuits."
+    - "Pro s'intègre à plus de 45 plugins, dont WooCommerce, LearnDash et MemberPress."
+    - "Les données restent dans votre base de données WordPress, sans service externe nécessaire."
+    - "Les appels, les réunions et d'autres activités peuvent être enregistrés sur un contact."
+  cons:
+    - "Pas d'affaires, de pipeline ni de prévisions de ventes."
+    - "L'export des contacts, les séquences d'e-mails et l'éditeur d'e-mails par glisser-déposer nécessitent Pro."
+    - "Les permissions des gestionnaires sont réservées à Pro et s'appliquent à tous les contacts."
+    - "Les formulaires intégrés nécessitent le plugin séparé Fluent Forms."
+    - "Pro commence à $90 la première année et se renouvelle à $129."
+  notes:
+    pipeline.lead_convert: "Un contact est étiqueté Lead ou Customer. Il n'y a pas de fiche lead distincte à convertir."
+    activities.tasks: "Les tâches proviennent du plugin séparé FluentBoards et s'affichent sur le profil du contact."
+    activities.calls: "Les appels et les réunions sont des types de notes dans l'onglet Notes and Activities."
+    activities.email_send: "L'e-mail direct ne fonctionne que pour les contacts au statut Subscribed."
+    marketing.automation: "La version gratuite propose un petit ensemble de déclencheurs et d'actions. La plupart des déclencheurs liés aux intégrations nécessitent Pro."
+    marketing.forms: "Les formulaires créés dans FluentCRM sont des formulaires Fluent Forms ; le plugin gratuit Fluent Forms doit donc être installé."
+    support.tickets: "Les tickets proviennent du plugin séparé Fluent Support et s'affichent sur le profil du contact."
+    team.roles: "Les gestionnaires Pro ont des permissions définies par utilisateur, et non par rôle nommé."
+    team.field_permissions: "Les permissions des gestionnaires s'appliquent globalement : un gestionnaire voit tous les contacts couverts par ses permissions."
+    data.reports: "Les rapports de campagnes et d'automatisation sont gratuits. Les rapports sur les contacts, WooCommerce et LMS nécessitent Pro."
+    data.import_export: "L'import CSV est gratuit. L'export des contacts nécessite Pro."
+    data.webhooks: "Les webhooks sortants s'exécutent comme une étape d'automatisation dans Pro. Les webhooks entrants sont gratuits."
+    data.rest_api: "La documentation développeur indique que les endpoints principaux fonctionnent avec le plugin gratuit, mais le tableau Free vs Pro place l'API REST dans Pro."
+    commerce.woocommerce: "L'historique d'achats sur le profil du contact est gratuit. La segmentation, les déclencheurs et les rapports WooCommerce nécessitent Pro."
+    integrations.form_plugins: "Fluent Forms est gratuit. Les formulaires Elementor, Divi Bloom, Thrive et Beaver Builder nécessitent Pro. Les autres plugins de formulaires peuvent envoyer leurs données vers un webhook entrant."
+  texts:
+    extras.storage: Votre base de données WordPress
+
+jetpack-crm:
+  summary: "Un CRM centré sur les contacts, édité par Automattic, avec devis, factures, transactions et portail client gratuits. Il n'a ni affaires ni pipeline commercial, et les campagnes, les automatisations et la plupart des intégrations sont des extensions payantes."
+  award: Idéal pour les devis et la facturation
+  best_for: "Les indépendants et les petites entreprises de services qui veulent des contacts, des devis, des factures et un portail client dans WordPress, sans frais. Moins adapté aux équipes qui suivent des affaires dans un pipeline."
+  pros:
+    - "Les contacts, les entreprises, les champs personnalisés, les tâches et un calendrier sont gratuits."
+    - "Les devis, les factures, les transactions et un portail client sont dans le plugin gratuit."
+    - "La synchronisation WooCommerce et la capture via Jetpack Forms sont intégrées."
+    - "Une API documentée est incluse dans le plugin gratuit."
+    - "Toutes les données restent dans votre base de données WordPress."
+  cons:
+    - "Pas d'affaires, de tableau kanban ni de prévisions de ventes, ni dans le cœur du plugin ni sous forme d'extension."
+    - "Les campagnes e-mail et les automatisations sont des extensions payantes."
+    - "Les intégrations avec des plugins de formulaires comme Contact Form 7 et Gravity Forms sont payantes."
+    - "La formule Entrepreneur, qui comprend toutes les extensions, coûte $204 par an pour un site."
+    - "Le délai de remboursement est de 14 jours."
+  notes:
+    records.companies: "Les entreprises sont disponibles avec le mode B2B, que l'on active dans le plugin gratuit."
+    records.duplicates: "Vous pouvez fusionner deux contacts choisis dans la liste. Aucune détection automatique des doublons n'a été trouvée."
+    pipeline.deals: "Les contacts passent par des statuts comme Lead et Customer, mais il n'existe pas de fiche d'affaire avec un montant et une étape."
+    pipeline.lead_convert: "Les leads sont des contacts au statut Lead, et non un type de fiche distinct."
+    activities.calls: "Les appels et les réunions sont des types d'entrées dans le journal d'activité d'un contact."
+    marketing.automation: "Un automate interne gratuit existe, mais les workflows configurables nécessitent l'extension Automations ($79 par an)."
+    support.tickets: "L'extension Awesome Support affiche dans le CRM les tickets du plugin séparé Awesome Support."
+    support.portal: "Le portail est gratuit. Client Portal Pro ajoute les téléchargements de fichiers, les tâches et les tickets."
+    team.field_permissions: "Les contacts peuvent être attribués à un utilisateur du CRM, et la modification peut être réservée au propriétaire. Aucun contrôle au niveau des champs n'a été trouvé."
+    team.audit: "Le journal d'activité enregistre les changements de statut et les modifications faites via le portail ou le profil, mais pas un historique complet des champs."
+    data.reports: "Le tableau de bord gratuit affiche des graphiques sur les contacts et l'activité. Les rapports de chiffre d'affaires nécessitent l'extension Sales Dashboard."
+    data.import_export: "Un outil d'import CSV basique et une page d'export sont gratuits. CSV Importer PRO ajoute des options."
+    data.webhooks: "Le plugin gratuit accepte uniquement les requêtes de webhooks entrants. Aucun webhook sortant lors de la modification des fiches n'a été trouvé."
+    integrations.form_plugins: "Jetpack Forms est pris en charge gratuitement. Contact Form 7 et Gravity Forms nécessitent chacun une extension payante."
+    extras.frontend_app: "Le front-end propose un portail réservé aux clients. L'équipe utilise le CRM dans wp-admin."
+  texts:
+    extras.storage: Votre base de données WordPress
+
+wp-erp:
+  summary: "Une suite gratuite RH, comptabilité et CRM éditée par weDevs, dont le module CRM couvre gratuitement les contacts, les entreprises, les activités et l'e-mail bidirectionnel. Les affaires, les workflows et la synchronisation WooCommerce nécessitent une formule annuelle dont le prix dépend du nombre d'utilisateurs."
+  award: Idéal pour réunir RH et comptabilité
+  best_for: "Les petites entreprises qui veulent le CRM, les RH et la comptabilité dans un seul plugin auto-hébergé. Il convient aux équipes qui travaillent déjà dans wp-admin et n'ont pas besoin d'un CRM en front-end."
+  pros:
+    - "Le cœur gratuit comprend les contacts, les entreprises, les tâches, les réunions, les appels et un calendrier de planification."
+    - "Les e-mails envoyés depuis un contact sont regroupés en fils de discussion, et les réponses arrivent via IMAP."
+    - "Les rôles de gestionnaire et d'agent CRM sont gratuits, et les agents ne voient que leurs propres contacts."
+    - "Des formulaires d'inscription gratuits, ainsi qu'une intégration avec Contact Form 7 et Ninja Forms."
+    - "Les factures et les devis sont fournis avec le module de comptabilité gratuit."
+  cons:
+    - "Les affaires, les workflows et la synchronisation WooCommerce nécessitent la formule Growth, à $257 par an."
+    - "Les formules payantes sont facturées par utilisateur, de 1 utilisateur pour Starter à 10 pour Scale."
+    - "Les campagnes e-mail passent par le plugin séparé weMail."
+    - "Pas de front-end pour le CRM ; il fonctionne uniquement dans wp-admin."
+    - "Le délai de remboursement est de 14 jours."
+  notes:
+    records.custom_fields: "L'extension Custom Field Builder ajoute des champs aux formulaires des contacts et des entreprises."
+    pipeline.lead_convert: "Lead est une étape du cycle de vie sur la fiche du contact, et non une fiche distincte."
+    activities.email_inbox: "Les réponses sont classées sur le contact une fois une boîte IMAP connectée ; une connexion via l'API Gmail est aussi proposée."
+    marketing.newsletters: "Les contacts sont synchronisés avec le plugin séparé weMail, où les campagnes sont créées et envoyées."
+    marketing.forms: "Les formulaires d'inscription ajoutent les contacts à un groupe de contacts."
+    support.tickets: "Il n'y a pas de file de tickets. Des extensions payantes affichent sur un contact les tickets d'Awesome Support, Zendesk ou Help Scout."
+    support.portal: "La FAQ de l'éditeur indique que les modules CRM et comptabilité n'ont pas de front-end."
+    team.roles: "Le plugin gratuit ajoute les rôles CRM Manager et CRM Agent."
+    team.field_permissions: "Les agents ne voient que les contacts dont ils sont propriétaires ; les gestionnaires les voient tous."
+    team.audit: "Le journal d'audit de l'ERP enregistre qui a créé, modifié ou supprimé un contact ou une entreprise."
+    data.rest_api: "Le plugin fournit des endpoints REST pour les contacts, les entreprises et les activités ; la documentation publique de l'API est sur GitHub et semble ancienne."
+    commerce.invoices: "Les factures et les devis proviennent du module de comptabilité gratuit, qui utilise les contacts du CRM comme clients."
+    integrations.form_plugins: "Contact Form 7 et Ninja Forms sont gratuits ; la synchronisation avec Gravity Forms nécessite la formule Growth."
+    extras.frontend_app: "La FAQ de l'éditeur indique que le CRM n'a pas de front-end ; seul le module RH a une extension front-end payante."
+  texts:
+    extras.storage: Votre base de données WordPress
+
+groundhogg:
+  summary: "Un CRM auto-hébergé construit autour de l'e-mailing et d'un éditeur visuel de scénarios d'automatisation. Les contacts, les envois groupés, les scénarios, les formulaires et les rapports sont gratuits, et le pipeline commercial, les entreprises et les intégrations sont fournis avec les formules annuelles."
+  award: Idéal pour les tunnels de vente et l'automatisation
+  best_for: "Les entreprises qui veulent une automatisation et un e-mailing de type ActiveCampaign dans WordPress, avec un prix fixe qui n'augmente pas avec la taille de la liste."
+  pros:
+    - "Nombre illimité de contacts, de scénarios et d'envois d'e-mails dans toutes les formules, y compris la gratuite."
+    - "L'éditeur visuel de scénarios, les envois groupés, un générateur de formulaires et les rapports sont gratuits."
+    - "Des rôles commerciaux gratuits, avec des Sales Representatives limités à leurs propres contacts."
+    - "Les appels, les réunions, les notes et les tâches sont enregistrés gratuitement sur la fiche du contact."
+    - "API REST gratuite, et des capacités pour les agents IA et les clients MCP."
+  cons:
+    - "Le pipeline commercial, les fiches entreprises et le calendrier de réservation nécessitent Plus, à $480 par an."
+    - "Les intégrations WooCommerce, SMTP et SMS nécessitent Pro, à $600 par an."
+    - "Les formules payantes sont uniquement annuelles, avec un délai de remboursement de 14 jours."
+    - "Pas de helpdesk, de base de connaissances ni de facturation."
+  notes:
+    records.companies: "Les fiches entreprises proviennent de l'extension Companies, incluse à partir de Plus ou vendue seule à partir de $59 par an."
+    records.duplicates: "Deux contacts peuvent être fusionnés à la main depuis la fiche. Aucun outil de recherche des doublons n'a été trouvé."
+    pipeline.deals: "L'extension Sales Pipeline est incluse à partir de Plus ou vendue seule à partir de $79 par an. Les affaires ont une date de clôture, une probabilité de clôture et des produits."
+    pipeline.lead_convert: "Il n'y a pas de fiche lead distincte. Les leads sont des contacts, à partir desquels on crée des affaires."
+    activities.email_inbox: "Les réponses aux e-mails de Groundhogg arrivent sur la fiche du contact via le relais hébergé de Groundhogg. Cela nécessite une licence active et ne lit pas votre propre boîte de réception."
+    support.tickets: "Il n'y a pas de file de tickets. Une intégration payante avec Help Scout connecte un helpdesk externe."
+    team.roles: "Ajoute les rôles Marketer, Sales Manager et Sales Representative."
+    team.field_permissions: "Les Sales Representatives ne voient que les contacts dont ils sont propriétaires. Aucune limite au niveau des champs n'a été trouvée."
+    data.webhooks: "L'envoi d'un webhook est une étape de scénario premium, présente dans toutes les formules payantes. Les utilisateurs de la version gratuite ne peuvent pas l'utiliser."
+    commerce.woocommerce: "L'extension WooCommerce est incluse dans Pro ou vendue seule à partir de $99 par an."
+    integrations.form_plugins: "Contact Form 7, Gravity Forms, WPForms, Fluent Forms et d'autres sont proposés à partir de Plus."
+    integrations.calendar_sync: "La synchronisation avec Google Calendar est fournie avec l'extension Booking Calendar, incluse à partir de Plus ou vendue seule à partir de $79 par an."
+  texts:
+    extras.storage: "Votre base de données WordPress (tables personnalisées)"
+
+wp-crm-system:
+  summary: "Un CRM présent de longue date, construit sur des types de contenu personnalisés, avec contacts, organisations, opportunités, projets, tâches et campagnes dans le plugin gratuit. Les champs personnalisés, un portail client, la facturation et les intégrations sont vendus sous forme d'extensions séparées ou dans des packs annuels."
+  award: Idéal pour le suivi des clients et des projets
+  best_for: "Les petites agences et les indépendants qui veulent suivre leurs clients, projets et tâches dans wp-admin sans payer par utilisateur ni par fiche."
+  pros:
+    - "Les contacts, les organisations, les opportunités, les projets, les tâches et les campagnes sont tous gratuits."
+    - "Rapports, calendrier sur le tableau de bord, et import et export CSV gratuits."
+    - "Les données restent dans votre base de données WordPress, sans limite d'utilisateurs ni de fiches."
+    - "Un réglage permet de limiter l'équipe aux fiches qu'elle a créées."
+    - "Chaque extension peut être achetée séparément, à partir de $29 par an."
+  cons:
+    - "Les opportunités ont une probabilité et un statut gagné ou perdu, mais ni étapes ni tableau kanban."
+    - "Les champs personnalisés nécessitent une extension payante."
+    - "Pas d'API REST, de fiches leads ni d'automatisation marketing."
+    - "Le pack comprenant toutes les extensions coûte $199 par an pour un site."
+    - "Les remboursements sont laissés à l'appréciation de l'éditeur et limités à 14 jours."
+  notes:
+    records.companies: "Les entreprises s'appellent Organizations, et des contacts et des opportunités peuvent y être rattachés."
+    records.custom_fields: "Vendu sous forme d'extension Custom Fields à partir de $29 par an, et inclus dans les trois packs."
+    records.duplicates: "Les contacts en double sont ignorés ou mis à jour selon l'adresse e-mail lors de l'import et de l'ajout rapide. Il n'y a pas d'outil pour trouver et fusionner les doublons existants."
+    pipeline.deals: "Les opportunités ont un montant, une probabilité, une date de clôture et un statut gagné ou perdu, mais pas d'étapes de pipeline."
+    pipeline.lead_convert: "Il n'y a pas de fiche lead distincte. Les opportunités peuvent être converties en projets."
+    activities.calendar: "Le calendrier se trouve sur le tableau de bord du CRM, et l'on peut y ajouter rapidement des fiches."
+    activities.email_send: "L'écran Email gratuit envoie un message aux contacts choisis et l'enregistre sur leurs fiches. L'envoi depuis l'écran de modification de la fiche nécessite l'extension Notes & Email."
+    marketing.newsletters: "L'écran Email gratuit peut envoyer un même message à de nombreux contacts via la messagerie de WordPress. MailChimp Sync se contente d'ajouter des contacts à une liste Mailchimp."
+    support.tickets: "Pas de file de tickets. Zendesk Connect affiche sur la fiche les tickets Zendesk d'un contact."
+    support.portal: "Les clients se connectent pour voir leurs projets, tâches, campagnes et, avec l'extension Invoicing, leurs factures. Inclus dans tous les packs."
+    team.roles: "L'accès est accordé à un rôle WordPress choisi et aux rôles supérieurs. Il n'y a pas de rôles propres au CRM."
+    team.field_permissions: "Une option masque les fiches des autres utilisateurs dans les listes d'administration, pour tous sauf les administrateurs."
+    data.webhooks: "Zapier Connect envoie les mises à jour et suppressions de fiches à Zapier, et non à une URL de votre choix."
+    data.rest_api: "Le plugin gratuit n'enregistre aucune route REST, et ses types de contenu ne sont pas exposés à l'API REST de WordPress."
+    commerce.invoices: "L'extension Invoicing envoie des factures et accepte les paiements par carte via Stripe. Incluse dans tous les packs."
+    integrations.form_plugins: "Gravity Forms Connect et Ninja Forms Connect sont des extensions séparées. Aucune extension Contact Form 7 ou WPForms n'est proposée."
+    integrations.calendar_sync: "Uniquement via Zapier, qui peut ajouter des entrées Google Calendar lorsqu'un projet ou une tâche change."
+  texts:
+    extras.storage: "Votre base de données WordPress (types de contenu personnalisés)"
+
+hubspot:
+  summary: "Le plugin officiel de HubSpot relie un site WordPress au CRM hébergé de HubSpot et ajoute à vos pages des formulaires, un chat en direct et le suivi des visiteurs. Le CRM gratuit couvre les contacts, les affaires, les tickets et l'e-mailing, et les formules payantes sont facturées par utilisateur."
+  award: Meilleur CRM hébergé gratuit
+  best_for: "Les équipes qui veulent un CRM hébergé complet, avec des outils marketing, commerciaux et de service client, et qui acceptent que leurs données soient stockées sur les serveurs de HubSpot plutôt que dans WordPress."
+  pros:
+    - "Le CRM gratuit comprend les contacts, les entreprises, les affaires, les tâches, les tickets, les formulaires et les e-mails marketing."
+    - "Les formulaires, le chat en direct et les pop-ups sont ajoutés au site sans plugin de formulaire séparé."
+    - "Récupère les entrées de plugins de formulaires comme Gravity Forms, Ninja Forms et WPForms."
+    - "Historique des modifications et permissions par utilisateur sur les fiches dans toutes les formules."
+    - "Une API REST documentée et une grande place de marché d'applications."
+  cons:
+    - "Toutes les données du CRM sont stockées sur les serveurs de HubSpot, et non dans votre base de données WordPress."
+    - "La formule gratuite est limitée à deux utilisateurs et 1 000 contacts, avec la marque HubSpot."
+    - "Les prix sont par utilisateur, et le prix Starter de $7 par mois est une offre limitée dans le temps pour les nouveaux clients."
+    - "Les prévisions, l'objet leads, une base de connaissances et le portail client nécessitent les formules Professional."
+    - "La synchronisation WooCommerce repose sur des applications tierces."
+  notes:
+    records.custom_fields: "La formule gratuite autorise 10 propriétés personnalisées. Les formules payantes relèvent cette limite."
+    records.duplicates: "Les contacts sont dédoublonnés par e-mail et les entreprises par domaine, et les fiches peuvent être fusionnées dans toutes les formules. Le gestionnaire de doublons nécessite une formule Professional."
+    pipeline.multiple: "La formule gratuite a un seul pipeline par défaut. Starter permet 15 pipelines personnalisés, partagés entre les objets."
+    pipeline.lead_convert: "Les leads sont liés à des contacts ou entreprises existants et avancent à travers des étapes de lead jusqu'à une affaire, plutôt que d'être convertis en nouveau contact. Nécessite Sales Hub Professional."
+    activities.email_inbox: "L'e-mail est connecté via la boîte de réception partagée de HubSpot. La synchronisation des e-mails est présentée comme une fonctionnalité Starter ; les limites de la formule gratuite n'ont donc pas été vérifiées en détail."
+    marketing.newsletters: "Les e-mails marketing gratuits portent la marque HubSpot et sont soumis à des limites d'envoi."
+    marketing.automation: "Starter propose une automatisation simple des e-mails, des contacts et des affaires. Les workflows complets nécessitent une formule Professional."
+    support.portal: "Le portail montre aux clients uniquement leurs propres tickets de support."
+    team.roles: "Les permissions sont définies par utilisateur dans toutes les formules. Les ensembles de permissions réutilisables nécessitent une formule Enterprise."
+    team.field_permissions: "Les utilisateurs peuvent être limités aux fiches dont ils sont propriétaires dans toutes les formules. L'accès limité à l'équipe nécessite une formule Professional."
+    team.audit: "L'historique des propriétés montre chaque modification, sa date et sa source, par exemple un utilisateur, un import ou un workflow."
+    data.webhooks: "L'action de workflow Send a webhook nécessite Data Hub Professional. Les applications de développeur peuvent aussi s'abonner aux modifications des fiches via l'API webhooks."
+    commerce.woocommerce: "Ne fait pas partie du plugin HubSpot. La synchronisation WooCommerce est proposée par des applications tierces, comme celle de MakeWebBetter."
+    commerce.invoices: "Les factures sont indiquées pour toutes les formules. Les devis nécessitent une formule Commerce Hub Professional."
+    integrations.form_plugins: "Les intégrations indiquées comprennent Gravity Forms, Ninja Forms, WPForms, Formidable et Forminator. Contact Form 7 ne figure pas dans la liste."
+    extras.frontend_app: "Le CRM fonctionne dans l'application web de HubSpot. Le plugin ajoute des outils dans wp-admin et des formulaires ou un chat sur les pages du site, mais pas un CRM pour l'équipe sur le site."
+  texts:
+    extras.storage: "Les serveurs de HubSpot (CRM hébergé)"

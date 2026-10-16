@@ -1,0 +1,16 @@
+{
+  "slug": "zero-bs-crm",
+  "api_url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=zero-bs-crm",
+  "fetched_at": "2026-10-16",
+  "listed": true,
+  "name": "Jetpack CRM &#8211; Clients, Leads, Invoices, Billing, Email Marketing, &amp; Automation",
+  "version": "6.8.5",
+  "active_installs": 30000,
+  "rating": 4.32,
+  "num_ratings": 152,
+  "last_updated": "2026-10-05",
+  "added": "2016-07-04",
+  "requires_wp": "6.0",
+  "requires_php": "7.4",
+  "tested_up_to": "7.1.3"
+}

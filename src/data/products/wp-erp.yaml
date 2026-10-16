@@ -1,0 +1,68 @@
+slug: wp-erp
+name: WP ERP
+vendor: weDevs
+own: false
+kind: suite
+order: 5
+wporg_slug: erp
+homepage: https://wperp.com/
+verified_at: 2026-10-16
+version_checked: "1.17.10"
+sources:
+  wporg: { url: "https://wordpress.org/plugins/erp/", method: docs }
+  source: { url: "https://plugins.trac.wordpress.org/browser/erp/tags/1.17.10/modules/crm", method: source-code }
+  pricing: { url: "https://wperp.com/pricing/", method: docs }
+  features: { url: "https://wperp.com/crm/", method: docs }
+  faq: { url: "https://wperp.com/faq/", method: docs }
+  docs: { url: "https://wperp.com/docs/crm/", method: docs }
+  email: { url: "https://wperp.com/docs/crm/tutorials/how-to-send-email-using-crm/", method: docs }
+  forms: { url: "https://wperp.com/docs/crm/tutorials/subscription-forms/", method: docs }
+  import: { url: "https://wperp.com/docs/crm/import-contact-company/", method: docs }
+  deals: { url: "https://wperp.com/docs/crm-add-ons/erp-deals/", method: docs }
+  workflow: { url: "https://wperp.com/docs/accounting-add-ons/workflow/", method: docs }
+  woocommerce: { url: "https://wperp.com/docs/crm-add-ons/woocommerce-integration/", method: docs }
+  newsletter: { url: "https://wperp.com/docs/crm-add-ons/crm-newsletter/", method: docs }
+pricing:
+  source: pricing
+  currency: USD
+  free: true
+  lifetime: false
+  refund: days_14
+  tiers:
+    - { name: Starter, price: 137, regular: 228, period: year, sites: "1" }
+    - { name: Growth, price: 257, regular: 468, period: year, sites: "1" }
+    - { name: Scale, price: 474, regular: 948, period: year, sites: "1" }
+features:
+  records.contacts: { value: yes, tier: free, src: wporg }
+  records.companies: { value: yes, tier: free, src: wporg }
+  records.custom_fields: { value: yes, tier: paid, tier_name: Starter, src: pricing, note: true }
+  records.duplicates: { value: no, tier: free, src: source }
+  pipeline.deals: { value: yes, tier: paid, tier_name: Growth, src: deals }
+  pipeline.kanban: { value: yes, tier: paid, tier_name: Growth, src: deals }
+  pipeline.multiple: { value: yes, tier: paid, tier_name: Growth, src: deals }
+  pipeline.forecast: { value: unverified }
+  pipeline.lead_convert: { value: no, tier: free, src: source, note: true }
+  activities.tasks: { value: yes, tier: free, src: wporg }
+  activities.calendar: { value: yes, tier: free, src: docs }
+  activities.calls: { value: yes, tier: free, src: wporg }
+  activities.email_send: { value: yes, tier: free, src: email }
+  activities.email_inbox: { value: yes, tier: free, src: email, note: true }
+  marketing.newsletters: { value: partial, src: newsletter, note: true }
+  marketing.automation: { value: yes, tier: paid, tier_name: Growth, src: workflow }
+  marketing.forms: { value: yes, tier: free, src: forms, note: true }
+  support.tickets: { value: no, tier: free, src: pricing, note: true }
+  support.knowledge_base: { value: unverified }
+  support.portal: { value: no, tier: free, src: faq, note: true }
+  team.roles: { value: yes, tier: free, src: source, note: true }
+  team.field_permissions: { value: yes, tier: free, src: source, note: true }
+  team.audit: { value: yes, tier: free, src: source, note: true }
+  data.reports: { value: yes, tier: free, src: features }
+  data.import_export: { value: yes, tier: free, src: import }
+  data.webhooks: { value: unverified }
+  data.rest_api: { value: yes, tier: free, src: faq, note: true }
+  commerce.woocommerce: { value: yes, tier: paid, tier_name: Growth, src: woocommerce }
+  commerce.invoices: { value: yes, tier: free, src: wporg, note: true }
+  integrations.form_plugins: { value: yes, tier: free, src: source, note: true }
+  integrations.calendar_sync: { value: unverified }
+  extras.storage: { text: true, src: wporg }
+  extras.frontend_app: { value: no, tier: free, src: faq, note: true }

@@ -1,0 +1,62 @@
+slug: jetpack-crm
+name: Jetpack CRM
+vendor: Automattic
+own: false
+kind: sales
+order: 4
+wporg_slug: zero-bs-crm
+homepage: https://jetpackcrm.com/
+verified_at: 2026-10-16
+version_checked: "6.8.5"
+sources:
+  wporg: { url: "https://wordpress.org/plugins/zero-bs-crm/", method: docs }
+  source: { url: "https://plugins.trac.wordpress.org/browser/zero-bs-crm/tags/6.8.5/", method: source-code }
+  pricing: { url: "https://jetpackcrm.com/pricing/", method: docs }
+  features: { url: "https://jetpackcrm.com/features/", method: docs }
+  extensions: { url: "https://jetpackcrm.com/extensions/", method: docs }
+  automations: { url: "https://jetpackcrm.com/product/automations/", method: docs }
+  api: { url: "https://jetpackcrm.com/feature/api/", method: docs }
+pricing:
+  source: pricing
+  currency: USD
+  free: true
+  lifetime: false
+  refund: days_14
+  tiers:
+    - { name: Freelancer, price: 132, period: year, sites: "1" }
+    - { name: Entrepreneur, price: 204, period: year, sites: "1" }
+    - { name: Reseller, price: 648, period: year, sites: "10" }
+features:
+  records.contacts: { value: yes, tier: free, src: wporg }
+  records.companies: { value: yes, tier: free, src: wporg, note: true }
+  records.custom_fields: { value: yes, tier: free, src: wporg }
+  records.duplicates: { value: partial, tier: free, src: source, note: true }
+  pipeline.deals: { value: no, src: extensions, note: true }
+  pipeline.kanban: { value: no, src: extensions }
+  pipeline.multiple: { value: no, src: extensions }
+  pipeline.forecast: { value: no, src: extensions }
+  pipeline.lead_convert: { value: no, src: wporg, note: true }
+  activities.tasks: { value: yes, tier: free, src: wporg }
+  activities.calendar: { value: yes, tier: free, src: wporg }
+  activities.calls: { value: yes, tier: free, src: source, note: true }
+  activities.email_send: { value: yes, tier: free, src: source }
+  activities.email_inbox: { value: no, src: source }
+  marketing.newsletters: { value: yes, tier: addon, tier_name: Mail Campaigns, src: extensions }
+  marketing.automation: { value: yes, tier: addon, tier_name: Automations, src: automations, note: true }
+  marketing.forms: { value: yes, tier: free, src: wporg }
+  support.tickets: { value: partial, tier: addon, tier_name: Awesome Support, src: extensions, note: true }
+  support.knowledge_base: { value: no, src: extensions }
+  support.portal: { value: yes, tier: free, src: wporg, note: true }
+  team.roles: { value: yes, tier: free, src: wporg }
+  team.field_permissions: { value: partial, tier: free, src: source, note: true }
+  team.audit: { value: partial, tier: free, src: source, note: true }
+  data.reports: { value: yes, tier: free, src: source, note: true }
+  data.import_export: { value: yes, tier: free, src: source, note: true }
+  data.webhooks: { value: no, src: source, note: true }
+  data.rest_api: { value: yes, tier: free, src: api }
+  commerce.woocommerce: { value: yes, tier: free, src: wporg }
+  commerce.invoices: { value: yes, tier: free, src: wporg }
+  integrations.form_plugins: { value: yes, tier: addon, tier_name: Contact Form 7, src: extensions, note: true }
+  integrations.calendar_sync: { value: no, src: extensions }
+  extras.storage: { text: true, src: wporg }
+  extras.frontend_app: { value: no, src: source, note: true }

@@ -1,0 +1,44 @@
+# Language-neutral page structure. Prose for each entry lives in src/i18n/{locale}/.
+
+# "X vs Y" pages. Key in compare.yaml is "{a}-vs-{b}".
+compare:
+  - { a: plugixa-crm, b: fluentcrm }
+  - { a: plugixa-crm, b: jetpack-crm }
+  - { a: plugixa-crm, b: hubspot }
+  - { a: plugixa-crm, b: wp-erp }
+  - { a: plugixa-crm, b: groundhogg }
+  - { a: plugixa-crm, b: wp-crm-system }
+  - { a: fluentcrm, b: jetpack-crm }
+  - { a: fluentcrm, b: groundhogg }
+
+# "Alternatives to X" pages. `target` is a product slug, or a legacy plugin with `name`.
+alternatives:
+  - target: hubspot
+    picks: [fluentcrm, jetpack-crm, plugixa-crm, groundhogg]
+  - target: fluentcrm
+    picks: [groundhogg, jetpack-crm, plugixa-crm, hubspot]
+  - target: jetpack-crm
+    picks: [fluentcrm, plugixa-crm, wp-erp, wp-crm-system]
+  - target: wp-crm
+    name: WP-CRM
+    picks: [plugixa-crm, jetpack-crm, wp-crm-system, fluentcrm]
+
+# "Best of" guides, picks in ranked order.
+guides:
+  - slug: best-wordpress-crm-plugins
+    picks: [fluentcrm, hubspot, jetpack-crm, plugixa-crm, wp-erp, groundhogg, wp-crm-system]
+  - slug: best-free-crm-plugins
+    picks: [plugixa-crm, fluentcrm, hubspot, jetpack-crm, wp-erp, groundhogg]
+  - slug: crm-plugins-with-sales-pipeline
+    picks: [plugixa-crm, hubspot, wp-erp, groundhogg]
+  - slug: crm-plugins-with-email-marketing
+    picks: [fluentcrm, groundhogg, hubspot, jetpack-crm, plugixa-crm]
+  - slug: crm-plugins-for-woocommerce
+    picks: [fluentcrm, jetpack-crm, groundhogg, wp-erp, plugixa-crm]
+
+# Plugins that are no longer a safe choice. reason: author | guideline | security | at_risk
+legacy:
+  - { name: Leads CRM for WordPress WooCommerce, slug: leads-crm, reason: security, date: "2024-11-08", source: "https://wordpress.org/plugins/leads-crm/" }
+  - { name: WP-CRM, slug: wp-crm, reason: security, date: "2022-04-20", source: "https://wordpress.org/plugins/wp-crm/" }
+  - { name: Brilliant Web-to-Lead for Salesforce, slug: salesforce-wordpress-to-lead, reason: at_risk, date: "2026-10-16", source: "https://wordpress.org/plugins/salesforce-wordpress-to-lead/" }
+  - { name: UkuuPeople, slug: ukuupeople-the-simple-crm, reason: security, date: "2021-03-24", source: "https://wordpress.org/plugins/ukuupeople-the-simple-crm/" }

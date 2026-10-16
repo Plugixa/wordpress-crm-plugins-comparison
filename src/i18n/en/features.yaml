@@ -1,0 +1,111 @@
+areas:
+  records: Contacts and companies
+  pipeline: Sales pipeline
+  activities: Activities and email
+  marketing: Marketing
+  support: Customer support
+  team: Team and permissions
+  data: Reports and data
+  commerce: Commerce
+  integrations: Integrations
+  extras: Platform
+features:
+  records.contacts:
+    label: Contacts
+    def: Stores people with their details, notes and a history of what happened with them.
+  records.companies:
+    label: Companies
+    def: Stores companies (accounts) as their own records, with contacts linked to them.
+  records.custom_fields:
+    label: Custom fields
+    def: You can add your own fields to contacts or other records.
+  records.duplicates:
+    label: Duplicate merge
+    def: Finds the same person or company entered twice and merges the two records.
+  pipeline.deals:
+    label: Deals
+    def: Tracks sales opportunities with a value, a stage and an expected close date.
+  pipeline.kanban:
+    label: Kanban board
+    def: Shows deals as cards in stage columns that you drag from one stage to the next.
+  pipeline.multiple:
+    label: Several pipelines
+    def: You can run more than one pipeline, each with its own stages.
+  pipeline.forecast:
+    label: Sales forecast
+    def: Reports expected revenue, weighted by stage probability or by close date.
+  pipeline.lead_convert:
+    label: Lead conversion
+    def: A lead is a separate record that converts into a contact, a company or a deal once qualified.
+  activities.tasks:
+    label: Tasks
+    def: Tasks with a due date and an assignee, linked to a record.
+  activities.calendar:
+    label: Calendar
+    def: A calendar view of tasks, meetings or appointments inside the CRM.
+  activities.calls:
+    label: Calls and meetings
+    def: Logs calls and meetings as their own activities on a record.
+  activities.email_send:
+    label: Email from a record
+    def: Sends a one-to-one email from a contact's record and keeps it on the record.
+  activities.email_inbox:
+    label: Incoming email
+    def: Reads a mailbox and files incoming mail against the matching records.
+  marketing.newsletters:
+    label: Email campaigns
+    def: Sends newsletters or bulk email to a list or segment of contacts.
+  marketing.automation:
+    label: Marketing automation
+    def: Runs sequences or workflows triggered by events, such as a tag added or a form submitted.
+  marketing.forms:
+    label: Lead capture forms
+    def: Has its own forms that create contacts or leads, without a separate form plugin.
+  support.tickets:
+    label: Tickets or cases
+    def: A support queue of customer requests with a status and an owner.
+  support.knowledge_base:
+    label: Knowledge base
+    def: Help articles you write in the CRM and can show to customers.
+  support.portal:
+    label: Client portal
+    def: Customers log in on your site to see their own records, such as tickets, invoices or documents.
+  team.roles:
+    label: CRM roles
+    def: Permissions set per CRM role, beyond the standard WordPress roles.
+  team.field_permissions:
+    label: Record-level access
+    def: Limits which records or fields a user can see, for example only their own or their team's.
+  team.audit:
+    label: Change history
+    def: Keeps a log of who changed what on a record.
+  data.reports:
+    label: Reports
+    def: Built-in reports or dashboards on contacts, deals or activity.
+  data.import_export:
+    label: CSV import and export
+    def: Imports contacts from a CSV file and exports them to one.
+  data.webhooks:
+    label: Webhooks
+    def: Sends a message to a URL you choose when records change.
+  data.rest_api:
+    label: REST API
+    def: A documented API for reading and writing CRM records from other software.
+  commerce.woocommerce:
+    label: WooCommerce
+    def: Links WooCommerce customers and their orders to CRM contacts.
+  commerce.invoices:
+    label: Quotes and invoices
+    def: Creates quotes or invoices from the CRM.
+  integrations.form_plugins:
+    label: Form plugin integrations
+    def: Sends entries from form plugins such as Contact Form 7, WPForms or Gravity Forms into the CRM.
+  integrations.calendar_sync:
+    label: Calendar sync
+    def: Syncs CRM meetings or tasks with Google Calendar or Outlook.
+  extras.storage:
+    label: Where your data lives
+    def: Whether records are stored in your WordPress database or on the vendor's servers.
+  extras.frontend_app:
+    label: CRM on a site page
+    def: Staff can use the CRM on a page of the site, outside wp-admin.

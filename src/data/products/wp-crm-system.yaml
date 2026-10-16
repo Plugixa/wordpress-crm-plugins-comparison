@@ -1,0 +1,66 @@
+slug: wp-crm-system
+name: WP-CRM System
+vendor: Premium WP Support
+own: false
+kind: sales
+order: 7
+wporg_slug: wp-crm-system
+homepage: https://www.wp-crm.com/
+verified_at: 2026-10-16
+version_checked: "3.4.7"
+sources:
+  wporg: { url: "https://wordpress.org/plugins/wp-crm-system/", method: docs }
+  source: { url: "https://plugins.trac.wordpress.org/browser/wp-crm-system/tags/3.4.7/", method: source-code }
+  pricing: { url: "https://www.wp-crm.com/pricing/", method: docs }
+  extensions: { url: "https://www.wp-crm.com/downloads/", method: docs }
+  terms: { url: "https://www.wp-crm.com/terms-conditions/", method: docs }
+  custom_fields: { url: "https://www.wp-crm.com/downloads/custom-fields/", method: docs }
+  client_area: { url: "https://www.wp-crm.com/downloads/client-area/", method: docs }
+  invoicing: { url: "https://www.wp-crm.com/downloads/invoicing/", method: docs }
+  woocommerce: { url: "https://www.wp-crm.com/downloads/woocommerce-connect/", method: docs }
+  gravity_forms: { url: "https://www.wp-crm.com/downloads/gravity-forms-connect/", method: docs }
+  zapier: { url: "https://www.wp-crm.com/downloads/zapier-connect/", method: docs }
+pricing:
+  source: pricing
+  currency: USD
+  free: true
+  lifetime: false
+  refund: defect_14
+  tiers:
+    - { name: Plus, price: 99, period: year, sites: "1" }
+    - { name: Enhanced, price: 199, period: year, sites: "1" }
+    - { name: Professional, price: 249, period: year, sites: "unlimited" }
+features:
+  records.contacts: { value: yes, tier: free, src: wporg }
+  records.companies: { value: yes, tier: free, src: source, note: true }
+  records.custom_fields: { value: yes, tier: addon, tier_name: Custom Fields, src: custom_fields, note: true }
+  records.duplicates: { value: partial, tier: free, src: source, note: true }
+  pipeline.deals: { value: partial, tier: free, src: source, note: true }
+  pipeline.kanban: { value: no, src: source }
+  pipeline.multiple: { value: no, src: source }
+  pipeline.forecast: { value: no, src: source }
+  pipeline.lead_convert: { value: no, src: source, note: true }
+  activities.tasks: { value: yes, tier: free, src: wporg }
+  activities.calendar: { value: yes, tier: free, src: source, note: true }
+  activities.calls: { value: no, src: source }
+  activities.email_send: { value: partial, tier: free, src: source, note: true }
+  activities.email_inbox: { value: no, src: source }
+  marketing.newsletters: { value: partial, tier: free, src: source, note: true }
+  marketing.automation: { value: no, src: source }
+  marketing.forms: { value: no, src: source }
+  support.tickets: { value: no, src: wporg, note: true }
+  support.knowledge_base: { value: no, src: source }
+  support.portal: { value: yes, tier: addon, tier_name: Client Area, src: client_area, note: true }
+  team.roles: { value: no, src: source, note: true }
+  team.field_permissions: { value: yes, tier: free, src: source, note: true }
+  team.audit: { value: unverified }
+  data.reports: { value: yes, tier: free, src: source }
+  data.import_export: { value: yes, tier: free, src: wporg }
+  data.webhooks: { value: partial, tier: addon, tier_name: Zapier Connect, src: zapier, note: true }
+  data.rest_api: { value: no, src: source, note: true }
+  commerce.woocommerce: { value: yes, tier: addon, tier_name: WooCommerce Connect, src: woocommerce }
+  commerce.invoices: { value: yes, tier: addon, tier_name: Invoicing, src: invoicing, note: true }
+  integrations.form_plugins: { value: yes, tier: addon, tier_name: Gravity Forms Connect, src: gravity_forms, note: true }
+  integrations.calendar_sync: { value: partial, tier: addon, tier_name: Zapier Connect, src: zapier, note: true }
+  extras.storage: { text: true, src: wporg }
+  extras.frontend_app: { value: no, src: source }

@@ -1,0 +1,111 @@
+areas:
+  records: Contactos y empresas
+  pipeline: Embudo de ventas
+  activities: Actividades y email
+  marketing: Marketing
+  support: Atención al cliente
+  team: Equipo y permisos
+  data: Informes y datos
+  commerce: Comercio
+  integrations: Integraciones
+  extras: Plataforma
+features:
+  records.contacts:
+    label: Contactos
+    def: Guarda personas con sus datos, notas y un historial de lo que ha pasado con ellas.
+  records.companies:
+    label: Empresas
+    def: Guarda las empresas (cuentas) como registros propios, con contactos vinculados a ellas.
+  records.custom_fields:
+    label: Campos personalizados
+    def: Puedes añadir tus propios campos a los contactos o a otros registros.
+  records.duplicates:
+    label: Fusión de duplicados
+    def: Detecta la misma persona o empresa introducida dos veces y fusiona los dos registros.
+  pipeline.deals:
+    label: Oportunidades
+    def: Hace el seguimiento de las oportunidades de venta con un importe, una etapa y una fecha de cierre prevista.
+  pipeline.kanban:
+    label: Tablero kanban
+    def: Muestra las oportunidades como tarjetas en columnas por etapa que se arrastran de una etapa a la siguiente.
+  pipeline.multiple:
+    label: Varios embudos
+    def: Puedes tener más de un embudo, cada uno con sus propias etapas.
+  pipeline.forecast:
+    label: Previsión de ventas
+    def: Informa de los ingresos previstos, ponderados por la probabilidad de cada etapa o por la fecha de cierre.
+  pipeline.lead_convert:
+    label: Conversión de leads
+    def: Un lead es un registro aparte que se convierte en un contacto, una empresa o una oportunidad una vez cualificado.
+  activities.tasks:
+    label: Tareas
+    def: Tareas con fecha de vencimiento y una persona asignada, vinculadas a un registro.
+  activities.calendar:
+    label: Calendario
+    def: Una vista de calendario de tareas, reuniones o citas dentro del CRM.
+  activities.calls:
+    label: Llamadas y reuniones
+    def: Registra las llamadas y las reuniones como actividades propias en un registro.
+  activities.email_send:
+    label: Email desde un registro
+    def: Envía un email individual desde la ficha de un contacto y lo guarda en esa ficha.
+  activities.email_inbox:
+    label: Email entrante
+    def: Lee un buzón y archiva el correo entrante en los registros correspondientes.
+  marketing.newsletters:
+    label: Campañas de email
+    def: Envía newsletters o emails masivos a una lista o segmento de contactos.
+  marketing.automation:
+    label: Automatización de marketing
+    def: Ejecuta secuencias o flujos de trabajo activados por eventos, como añadir una etiqueta o enviar un formulario.
+  marketing.forms:
+    label: Formularios de captación de leads
+    def: Tiene formularios propios que crean contactos o leads, sin un plugin de formularios aparte.
+  support.tickets:
+    label: Tickets o casos
+    def: Una cola de soporte con las solicitudes de los clientes, cada una con un estado y un responsable.
+  support.knowledge_base:
+    label: Base de conocimiento
+    def: Artículos de ayuda que escribes en el CRM y puedes mostrar a los clientes.
+  support.portal:
+    label: Portal de clientes
+    def: Los clientes inician sesión en tu sitio para ver sus propios registros, como tickets, facturas o documentos.
+  team.roles:
+    label: Roles del CRM
+    def: Permisos definidos por rol del CRM, más allá de los roles estándar de WordPress.
+  team.field_permissions:
+    label: Acceso por registro
+    def: Limita qué registros o campos puede ver un usuario, por ejemplo solo los suyos o los de su equipo.
+  team.audit:
+    label: Historial de cambios
+    def: Guarda un registro de quién cambió qué en cada registro.
+  data.reports:
+    label: Informes
+    def: Informes o paneles integrados sobre contactos, oportunidades o actividad.
+  data.import_export:
+    label: Importación y exportación CSV
+    def: Importa contactos desde un archivo CSV y los exporta a uno.
+  data.webhooks:
+    label: Webhooks
+    def: Envía un mensaje a la URL que elijas cuando cambian los registros.
+  data.rest_api:
+    label: API REST
+    def: Una API documentada para leer y escribir registros del CRM desde otro software.
+  commerce.woocommerce:
+    label: WooCommerce
+    def: Vincula los clientes de WooCommerce y sus pedidos con los contactos del CRM.
+  commerce.invoices:
+    label: Presupuestos y facturas
+    def: Crea presupuestos o facturas desde el CRM.
+  integrations.form_plugins:
+    label: Integraciones con plugins de formularios
+    def: Envía al CRM las entradas de plugins de formularios como Contact Form 7, WPForms o Gravity Forms.
+  integrations.calendar_sync:
+    label: Sincronización de calendario
+    def: Sincroniza las reuniones o tareas del CRM con Google Calendar u Outlook.
+  extras.storage:
+    label: Dónde se guardan tus datos
+    def: Si los registros se guardan en tu base de datos de WordPress o en los servidores del proveedor.
+  extras.frontend_app:
+    label: CRM en una página del sitio
+    def: El personal puede usar el CRM en una página del sitio, fuera de wp-admin.

@@ -1,0 +1,106 @@
+# One entry per pair in src/data/pages.yaml, keyed "{a}-vs-{b}".
+plugixa-crm-vs-fluentcrm:
+  intro:
+    - "Questi due plugin risolvono problemi diversi. FluentCRM è un CRM per l'email marketing, costruito attorno a un elenco di contatti, tag, campagne e automazione. Plugixa CRM è un CRM per vendite e assistenza, costruito attorno ad aziende, trattative, casi e permessi per il team."
+    - "FluentCRM è la scelta consolidata, con più di 80.000 installazioni attive. Plugixa CRM è nuovo e non è ancora su wordpress.org."
+  choose_a:
+    - "Ti servono trattative su una bacheca della pipeline con una previsione; FluentCRM non ha trattative."
+    - "Ti serve una coda di assistenza, una knowledge base o un portale clienti."
+    - "Vuoi ruoli che limitino ogni utente ai propri record o a quelli del suo team."
+    - "Vuoi che le email in arrivo vengano archiviate nei contatti e trasformate in casi."
+  choose_b:
+    - "L'email marketing è il compito principale, e ti servono sequenze automatiche e segmenti."
+    - "Vuoi integrazioni con plugin LMS, di membership e di e-commerce."
+    - "Vuoi il plugin con la base di installazioni più ampia e un lungo storico."
+  verdict: "Per newsletter e marketing automation scegli FluentCRM. Per un team commerciale che lavora sulle trattative, o per un'azienda che gestisce richieste di assistenza, scegli Plugixa CRM. Alcuni siti useranno entrambi, con FluentCRM per l'elenco dei contatti e Plugixa CRM per vendite e assistenza."
+
+plugixa-crm-vs-jetpack-crm:
+  intro:
+    - "Entrambi sono CRM self-hosted per piccole aziende che tengono i tuoi dati in WordPress. Jetpack CRM è incentrato su contatti, preventivi e fatture. Plugixa CRM è incentrato su trattative, attività e assistenza."
+    - "Jetpack CRM è sviluppato da Automattic e ha più di 30.000 installazioni attive. Plugixa CRM è nuovo."
+  choose_a:
+    - "Ti servono trattative, una bacheca della pipeline e una previsione delle vendite; Jetpack CRM non ha nessuna di queste cose."
+    - "Vuoi campagne email senza acquistare un'estensione."
+    - "Ti servono casi, una knowledge base o ruoli limitati ai record dell'utente o del suo team."
+    - "Vuoi che le email in arrivo vengano lette dalla tua casella di posta."
+  choose_b:
+    - "Invii preventivi e fatture e li vuoi gratis all'interno del CRM."
+    - "Vuoi la sincronizzazione con WooCommerce senza un piano a pagamento."
+    - "Vuoi un plugin di un produttore grande e affermato."
+  verdict: "Scegli Jetpack CRM se fatturi ai clienti dal CRM e non gestisci una pipeline di vendita. Scegli Plugixa CRM se vendi per fasi, gestisci richieste di assistenza o ti servono permessi basati sul team, il tutto senza estensioni a pagamento."
+
+plugixa-crm-vs-hubspot:
+  intro:
+    - "Il plugin di HubSpot collega il tuo sito al CRM in hosting di HubSpot; i tuoi contatti e le tue trattative sono salvati sui server di HubSpot. Plugixa CRM funziona interamente dentro WordPress e salva tutto nel tuo database."
+    - "HubSpot ha la base di installazioni più ampia di questo confronto, con più di 200.000 installazioni attive. Plugixa CRM è nuovo."
+  choose_a:
+    - "Vuoi che i dati dei clienti restino sul tuo server."
+    - "Hai più di due utenti, o più di 1.000 contatti, e non vuoi pagare per postazione."
+    - "Vuoi più pipeline, una previsione e un portale clienti senza un piano a pagamento."
+  choose_b:
+    - "Vuoi un CRM in hosting con live chat, un ampio marketplace di app e app per dispositivi mobili."
+    - "Prevedi di crescere verso l'automazione di marketing e vendite e accetti un prezzo per postazione."
+    - "Non vuoi far girare un software CRM sul tuo sito WordPress."
+  verdict: "HubSpot è la scelta migliore se vuoi una piattaforma in hosting e prevedi di acquistare i suoi hub a pagamento. Plugixa CRM è la scelta migliore se vuoi il CRM dentro WordPress, con i dati sul tuo server e senza costi per postazione."
+
+plugixa-crm-vs-wp-erp:
+  intro:
+    - "WP ERP è una suite aziendale con gestione del personale, contabilità e un modulo CRM. Plugixa CRM è solo un CRM, con funzioni di assistenza che WP ERP non ha."
+    - "WP ERP ha più di 5.000 installazioni attive. Plugixa CRM è nuovo."
+  choose_a:
+    - "Vuoi trattative e una pipeline senza un piano a pagamento; WP ERP le mette nel piano Growth a $257 l'anno."
+    - "Ti servono casi, una knowledge base o un portale clienti."
+    - "Vuoi che il personale usi il CRM su una pagina del tuo sito, fuori da wp-admin."
+  choose_b:
+    - "Ti servono anche gestione del personale o contabilità nello stesso plugin."
+    - "Vuoi fatture e preventivi, che arrivano con il modulo di contabilità di WP ERP."
+    - "Vuoi flussi di lavoro integrati e sei disposto a pagare per utente."
+  verdict: "Se ti servono anche gestione del personale o contabilità, WP ERP tiene tutto in un'unica suite. Se ti serve un CRM solo per vendite e assistenza, Plugixa CRM ne offre di più gratis."
+
+plugixa-crm-vs-groundhogg:
+  intro:
+    - "Groundhogg è un CRM per la marketing automation con un editor visuale dei flussi. Plugixa CRM è un CRM per vendite e assistenza senza automazione."
+    - "Groundhogg ha circa 2.000 installazioni attive. Plugixa CRM è nuovo."
+  choose_a:
+    - "Ti servono una pipeline e i record delle aziende senza pagare; Groundhogg li mette entrambi nel piano Plus a $480 l'anno."
+    - "Ti servono casi, una knowledge base o un portale clienti."
+    - "Vuoi un prezzo annuale più basso per un numero illimitato di siti."
+  choose_b:
+    - "Vuoi flussi di automazione visuali, gratis, con contatti illimitati."
+    - "Gestisci funnel in cui le sequenze email contano più della pipeline di vendita."
+  verdict: "Scegli Groundhogg per funnel guidati dall'automazione. Scegli Plugixa CRM per il lavoro di vendita e assistenza, dove pipeline, casi e permessi contano più delle email automatiche."
+
+plugixa-crm-vs-wp-crm-system:
+  intro:
+    - "Entrambi i plugin tengono in WordPress i clienti di una piccola azienda. WP-CRM System salva i record come articoli WordPress e aggiunge i progetti. Plugixa CRM usa tabelle proprie e aggiunge una pipeline e funzioni di assistenza."
+    - "WP-CRM System è su wordpress.org da anni, con circa 700 installazioni attive. Plugixa CRM è nuovo."
+  choose_a:
+    - "Ti servono fasi delle trattative e una bacheca della pipeline; le opportunità di WP-CRM System non hanno né le une né l'altra."
+    - "Ti servono una REST API, webhook, casi o una knowledge base."
+    - "Vuoi campi personalizzati e un portale clienti senza acquistare estensioni separate."
+  choose_b:
+    - "Tieni traccia dei progetti insieme ai clienti."
+    - "Vuoi acquistare le estensioni una alla volta."
+  verdict: "WP-CRM System è adatto a un freelance che segue clienti e progetti. Plugixa CRM è adatto a un team che vende per fasi e gestisce l'assistenza."
+
+fluentcrm-vs-jetpack-crm:
+  intro:
+    - "Entrambi tengono i tuoi dati in WordPress ed entrambi non hanno una pipeline di vendita. FluentCRM è pensato per l'email marketing. Jetpack CRM è pensato per gestire clienti, preventivi e fatture."
+  choose_a:
+    - "Invii newsletter e vuoi l'automazione, con contatti illimitati."
+    - "Ti servono integrazioni con plugin LMS, di membership o di e-commerce."
+  choose_b:
+    - "Invii preventivi e fatture ai clienti."
+    - "Vuoi un portale clienti nella versione gratuita."
+  verdict: "FluentCRM per l'email marketing; Jetpack CRM per la fatturazione ai clienti. Nessuno dei due segue le trattative lungo una pipeline."
+
+fluentcrm-vs-groundhogg:
+  intro:
+    - "Entrambi sono CRM per l'email marketing con automazione. FluentCRM ha una base di installazioni molto più ampia. Groundhogg ha un editor visuale dei flussi e una pipeline a pagamento."
+  choose_a:
+    - "Vuoi la community più ampia e un prezzo più basso per il primo anno."
+    - "Vuoi integrazioni approfondite con altri plugin WordPress."
+  choose_b:
+    - "Vuoi un editor visuale dell'automazione nella versione gratuita."
+    - "Vuoi una pipeline di vendita nello stesso plugin e accetti il prezzo del piano Plus."
+  verdict: "FluentCRM è la scelta predefinita più sicura per l'email marketing. Groundhogg è adatto quando vuoi flussi visuali gratis, o una pipeline accanto all'automazione."

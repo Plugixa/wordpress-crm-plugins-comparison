@@ -1,0 +1,111 @@
+areas:
+  records: Contacts et entreprises
+  pipeline: Pipeline commercial
+  activities: Activités et e-mail
+  marketing: Marketing
+  support: Support client
+  team: Équipe et permissions
+  data: Rapports et données
+  commerce: Commerce
+  integrations: Intégrations
+  extras: Plateforme
+features:
+  records.contacts:
+    label: Contacts
+    def: "Enregistre des personnes avec leurs coordonnées, des notes et l'historique des échanges avec elles."
+  records.companies:
+    label: Entreprises
+    def: "Enregistre les entreprises (comptes) comme des fiches à part entière, auxquelles les contacts sont rattachés."
+  records.custom_fields:
+    label: Champs personnalisés
+    def: Vous pouvez ajouter vos propres champs aux contacts ou à d'autres fiches.
+  records.duplicates:
+    label: Fusion des doublons
+    def: Repère une même personne ou entreprise saisie deux fois et fusionne les deux fiches.
+  pipeline.deals:
+    label: Affaires
+    def: "Suit les opportunités commerciales avec un montant, une étape et une date de clôture prévue."
+  pipeline.kanban:
+    label: Tableau kanban
+    def: "Affiche les affaires sous forme de cartes dans des colonnes par étape, que l'on fait glisser d'une étape à l'autre."
+  pipeline.multiple:
+    label: Plusieurs pipelines
+    def: "Vous pouvez gérer plusieurs pipelines, chacun avec ses propres étapes."
+  pipeline.forecast:
+    label: Prévisions de ventes
+    def: "Indique le chiffre d'affaires attendu, pondéré par la probabilité de l'étape ou par la date de clôture."
+  pipeline.lead_convert:
+    label: Conversion des leads
+    def: "Un lead est une fiche distincte, convertie en contact, en entreprise ou en affaire une fois qualifié."
+  activities.tasks:
+    label: Tâches
+    def: "Des tâches avec une échéance et un responsable, rattachées à une fiche."
+  activities.calendar:
+    label: Calendrier
+    def: "Une vue calendrier des tâches, réunions ou rendez-vous dans le CRM."
+  activities.calls:
+    label: Appels et réunions
+    def: Enregistre les appels et les réunions comme des activités à part entière sur une fiche.
+  activities.email_send:
+    label: E-mail depuis une fiche
+    def: "Envoie un e-mail individuel depuis la fiche d'un contact et le conserve sur cette fiche."
+  activities.email_inbox:
+    label: E-mails entrants
+    def: Lit une boîte de réception et classe les e-mails reçus sur les fiches correspondantes.
+  marketing.newsletters:
+    label: Campagnes e-mail
+    def: "Envoie des newsletters ou des e-mails groupés à une liste ou à un segment de contacts."
+  marketing.automation:
+    label: Automatisation marketing
+    def: "Exécute des séquences ou des workflows déclenchés par des événements, comme l'ajout d'un tag ou l'envoi d'un formulaire."
+  marketing.forms:
+    label: Formulaires de capture de leads
+    def: "Dispose de ses propres formulaires qui créent des contacts ou des leads, sans plugin de formulaire séparé."
+  support.tickets:
+    label: Tickets ou dossiers
+    def: "Une file de support des demandes clients, avec un statut et un responsable."
+  support.knowledge_base:
+    label: Base de connaissances
+    def: "Des articles d'aide rédigés dans le CRM et que vous pouvez montrer aux clients."
+  support.portal:
+    label: Portail client
+    def: "Les clients se connectent sur votre site pour consulter leurs propres données, comme leurs tickets, factures ou documents."
+  team.roles:
+    label: Rôles CRM
+    def: "Des permissions définies par rôle CRM, au-delà des rôles standard de WordPress."
+  team.field_permissions:
+    label: Accès au niveau des fiches
+    def: "Limite les fiches ou les champs qu'un utilisateur peut voir, par exemple uniquement les siens ou ceux de son équipe."
+  team.audit:
+    label: Historique des modifications
+    def: Conserve un journal indiquant qui a modifié quoi sur une fiche.
+  data.reports:
+    label: Rapports
+    def: "Des rapports ou tableaux de bord intégrés sur les contacts, les affaires ou l'activité."
+  data.import_export:
+    label: Import et export CSV
+    def: Importe des contacts depuis un fichier CSV et les exporte vers un fichier CSV.
+  data.webhooks:
+    label: Webhooks
+    def: "Envoie un message à une URL de votre choix lorsque des fiches sont modifiées."
+  data.rest_api:
+    label: API REST
+    def: "Une API documentée pour lire et écrire les fiches du CRM depuis d'autres logiciels."
+  commerce.woocommerce:
+    label: WooCommerce
+    def: Relie les clients WooCommerce et leurs commandes aux contacts du CRM.
+  commerce.invoices:
+    label: Devis et factures
+    def: Crée des devis ou des factures depuis le CRM.
+  integrations.form_plugins:
+    label: Intégrations avec les plugins de formulaires
+    def: "Envoie dans le CRM les entrées de plugins de formulaires comme Contact Form 7, WPForms ou Gravity Forms."
+  integrations.calendar_sync:
+    label: Synchronisation du calendrier
+    def: Synchronise les réunions ou tâches du CRM avec Google Calendar ou Outlook.
+  extras.storage:
+    label: Où sont stockées vos données
+    def: "Indique si les fiches sont stockées dans votre base de données WordPress ou sur les serveurs de l'éditeur."
+  extras.frontend_app:
+    label: CRM sur une page du site
+    def: "L'équipe peut utiliser le CRM sur une page du site, en dehors de wp-admin."

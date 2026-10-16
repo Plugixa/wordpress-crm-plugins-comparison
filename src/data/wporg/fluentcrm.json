@@ -1,0 +1,16 @@
+{
+  "slug": "fluent-crm",
+  "api_url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=fluent-crm",
+  "fetched_at": "2026-10-16",
+  "listed": true,
+  "name": "FluentCRM &#8211; Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution",
+  "version": "3.2.6",
+  "active_installs": 80000,
+  "rating": 4.77,
+  "num_ratings": 250,
+  "last_updated": "2026-10-12",
+  "added": "2020-09-29",
+  "requires_wp": "6.0",
+  "requires_php": "7.4",
+  "tested_up_to": "7.1.3"
+}

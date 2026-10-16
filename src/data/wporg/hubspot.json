@@ -1,0 +1,16 @@
+{
+  "slug": "leadin",
+  "api_url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=leadin",
+  "fetched_at": "2026-10-16",
+  "listed": true,
+  "name": "HubSpot All-In-One Marketing &#8211; Forms, Popups, Live Chat",
+  "version": "11.3.75",
+  "active_installs": 200000,
+  "rating": 4.34,
+  "num_ratings": 207,
+  "last_updated": "2026-09-16",
+  "added": "2014-03-12",
+  "requires_wp": "5.8",
+  "requires_php": "7.2",
+  "tested_up_to": "6.9.10"
+}

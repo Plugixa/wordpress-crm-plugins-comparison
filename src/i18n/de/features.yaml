@@ -1,0 +1,111 @@
+areas:
+  records: Kontakte und Firmen
+  pipeline: Vertriebspipeline
+  activities: Aktivitäten und E-Mail
+  marketing: Marketing
+  support: Kundensupport
+  team: Team und Berechtigungen
+  data: Berichte und Daten
+  commerce: Commerce
+  integrations: Integrationen
+  extras: Plattform
+features:
+  records.contacts:
+    label: Kontakte
+    def: Speichert Personen mit ihren Angaben, Notizen und einem Verlauf dessen, was mit ihnen geschehen ist.
+  records.companies:
+    label: Firmen
+    def: Speichert Firmen (Accounts) als eigene Datensätze, mit verknüpften Kontakten.
+  records.custom_fields:
+    label: Benutzerdefinierte Felder
+    def: Sie können Kontakten oder anderen Datensätzen eigene Felder hinzufügen.
+  records.duplicates:
+    label: Dubletten zusammenführen
+    def: Findet dieselbe Person oder Firma, die doppelt erfasst wurde, und führt die beiden Datensätze zusammen.
+  pipeline.deals:
+    label: Deals
+    def: Verfolgt Verkaufschancen mit einem Wert, einer Phase und einem erwarteten Abschlussdatum.
+  pipeline.kanban:
+    label: Kanban-Board
+    def: Zeigt Deals als Karten in Phasenspalten, die Sie von einer Phase in die nächste ziehen.
+  pipeline.multiple:
+    label: Mehrere Pipelines
+    def: Sie können mehr als eine Pipeline führen, jede mit eigenen Phasen.
+  pipeline.forecast:
+    label: Umsatzprognose
+    def: Zeigt den erwarteten Umsatz, gewichtet nach Phasenwahrscheinlichkeit oder nach Abschlussdatum.
+  pipeline.lead_convert:
+    label: Lead-Konvertierung
+    def: Ein Lead ist ein eigener Datensatz, der nach der Qualifizierung in einen Kontakt, eine Firma oder einen Deal umgewandelt wird.
+  activities.tasks:
+    label: Aufgaben
+    def: Aufgaben mit Fälligkeitsdatum und zuständiger Person, verknüpft mit einem Datensatz.
+  activities.calendar:
+    label: Kalender
+    def: Eine Kalenderansicht von Aufgaben, Meetings oder Terminen im CRM.
+  activities.calls:
+    label: Anrufe und Meetings
+    def: Erfasst Anrufe und Meetings als eigene Aktivitäten an einem Datensatz.
+  activities.email_send:
+    label: E-Mail aus einem Datensatz
+    def: Sendet eine persönliche E-Mail aus dem Datensatz eines Kontakts und speichert sie dort.
+  activities.email_inbox:
+    label: Eingehende E-Mails
+    def: Liest ein Postfach aus und ordnet eingehende E-Mails den passenden Datensätzen zu.
+  marketing.newsletters:
+    label: E-Mail-Kampagnen
+    def: Versendet Newsletter oder Massen-E-Mails an eine Liste oder ein Segment von Kontakten.
+  marketing.automation:
+    label: Marketing-Automatisierung
+    def: Führt Sequenzen oder Workflows aus, die durch Ereignisse ausgelöst werden, etwa ein hinzugefügtes Tag oder ein abgeschicktes Formular.
+  marketing.forms:
+    label: Formulare zur Lead-Erfassung
+    def: Hat eigene Formulare, die Kontakte oder Leads anlegen, ohne separates Formular-Plugin.
+  support.tickets:
+    label: Tickets oder Fälle
+    def: Eine Support-Warteschlange für Kundenanfragen mit Status und zuständiger Person.
+  support.knowledge_base:
+    label: Wissensdatenbank
+    def: Hilfeartikel, die Sie im CRM schreiben und Kunden zeigen können.
+  support.portal:
+    label: Kundenportal
+    def: Kunden melden sich auf Ihrer Website an, um ihre eigenen Datensätze zu sehen, etwa Tickets, Rechnungen oder Dokumente.
+  team.roles:
+    label: CRM-Rollen
+    def: Berechtigungen pro CRM-Rolle, über die Standardrollen von WordPress hinaus.
+  team.field_permissions:
+    label: Zugriff auf Datensatzebene
+    def: Legt fest, welche Datensätze oder Felder ein Nutzer sehen kann, zum Beispiel nur die eigenen oder die seines Teams.
+  team.audit:
+    label: Änderungsverlauf
+    def: Protokolliert, wer was an einem Datensatz geändert hat.
+  data.reports:
+    label: Berichte
+    def: Eingebaute Berichte oder Dashboards zu Kontakten, Deals oder Aktivitäten.
+  data.import_export:
+    label: CSV-Import und -Export
+    def: Importiert Kontakte aus einer CSV-Datei und exportiert sie in eine.
+  data.webhooks:
+    label: Webhooks
+    def: Sendet eine Nachricht an eine von Ihnen gewählte URL, wenn sich Datensätze ändern.
+  data.rest_api:
+    label: REST API
+    def: Eine dokumentierte API, um CRM-Datensätze aus anderer Software zu lesen und zu schreiben.
+  commerce.woocommerce:
+    label: WooCommerce
+    def: Verknüpft WooCommerce-Kunden und ihre Bestellungen mit CRM-Kontakten.
+  commerce.invoices:
+    label: Angebote und Rechnungen
+    def: Erstellt Angebote oder Rechnungen aus dem CRM heraus.
+  integrations.form_plugins:
+    label: Integration von Formular-Plugins
+    def: Überträgt Einträge aus Formular-Plugins wie Contact Form 7, WPForms oder Gravity Forms ins CRM.
+  integrations.calendar_sync:
+    label: Kalender-Synchronisierung
+    def: Synchronisiert Meetings oder Aufgaben aus dem CRM mit Google Calendar oder Outlook.
+  extras.storage:
+    label: Wo Ihre Daten liegen
+    def: Ob die Datensätze in Ihrer WordPress-Datenbank oder auf den Servern des Anbieters gespeichert werden.
+  extras.frontend_app:
+    label: CRM auf einer Seite der Website
+    def: Mitarbeiter können das CRM auf einer Seite der Website nutzen, außerhalb von wp-admin.

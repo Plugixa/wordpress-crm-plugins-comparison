@@ -1,0 +1,70 @@
+slug: hubspot
+name: HubSpot
+vendor: HubSpot
+own: false
+kind: connector
+order: 2
+wporg_slug: leadin
+homepage: https://www.hubspot.com/
+verified_at: 2026-10-16
+version_checked: "11.3.75"
+sources:
+  wporg: { url: "https://wordpress.org/plugins/leadin/", method: docs }
+  pricing: { url: "https://www.hubspot.com/products/crm/starter", method: docs }
+  crmfree: { url: "https://www.hubspot.com/products/crm/free", method: docs }
+  objects: { url: "https://knowledge.hubspot.com/records/understand-objects", method: docs }
+  duplicates: { url: "https://knowledge.hubspot.com/records/manage-duplicate-records", method: docs }
+  pipelines: { url: "https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines", method: docs }
+  forecast: { url: "https://knowledge.hubspot.com/forecast/set-up-the-forecast-tool", method: docs }
+  leads: { url: "https://knowledge.hubspot.com/records/manage-leads", method: docs }
+  activities: { url: "https://knowledge.hubspot.com/records/manually-log-activities-on-records", method: docs }
+  knowledge_base: { url: "https://knowledge.hubspot.com/knowledge-base/create-and-customize-knowledge-base-articles", method: docs }
+  portal: { url: "https://knowledge.hubspot.com/inbox/set-up-a-customer-portal", method: docs }
+  permissions: { url: "https://knowledge.hubspot.com/user-management/manage-user-permissions", method: docs }
+  history: { url: "https://knowledge.hubspot.com/records/view-record-property-history", method: docs }
+  workflow_webhooks: { url: "https://knowledge.hubspot.com/workflows/how-do-i-use-webhooks-with-hubspot-workflows", method: docs }
+  api: { url: "https://developers.hubspot.com/docs/api-reference/webhooks-webhooks-v3/guide", method: docs }
+  invoices: { url: "https://knowledge.hubspot.com/invoices/create-invoices", method: docs }
+  woocommerce: { url: "https://www.hubspot.com/partners/wordpress/plugins/woocommerce-by-makewebbetter", method: docs }
+pricing:
+  source: pricing
+  currency: USD
+  free: true
+  lifetime: false
+  refund: unknown
+  tiers:
+    - { name: Starter Customer Platform, price: 84, regular: 240, period: year, sites: "1 seat" }
+features:
+  records.contacts: { value: yes, tier: free, src: wporg }
+  records.companies: { value: yes, tier: free, src: objects }
+  records.custom_fields: { value: yes, tier: free, src: pricing, note: true }
+  records.duplicates: { value: partial, tier: free, src: duplicates, note: true }
+  pipeline.deals: { value: yes, tier: free, src: crmfree }
+  pipeline.kanban: { value: yes, tier: free, src: pipelines }
+  pipeline.multiple: { value: yes, tier: paid, tier_name: Starter Customer Platform, src: pipelines, note: true }
+  pipeline.forecast: { value: yes, tier: paid, tier_name: Sales Hub Professional, src: forecast }
+  pipeline.lead_convert: { value: partial, tier: paid, tier_name: Sales Hub Professional, src: leads, note: true }
+  activities.tasks: { value: yes, tier: free, src: crmfree }
+  activities.calendar: { value: unverified }
+  activities.calls: { value: yes, tier: free, src: activities }
+  activities.email_send: { value: yes, tier: free, src: crmfree }
+  activities.email_inbox: { value: yes, tier: free, src: crmfree, note: true }
+  marketing.newsletters: { value: yes, tier: free, src: crmfree, note: true }
+  marketing.automation: { value: yes, tier: paid, tier_name: Starter Customer Platform, src: pricing, note: true }
+  marketing.forms: { value: yes, tier: free, src: wporg }
+  support.tickets: { value: yes, tier: free, src: crmfree }
+  support.knowledge_base: { value: yes, tier: paid, tier_name: Service Hub Professional, src: knowledge_base }
+  support.portal: { value: yes, tier: paid, tier_name: Service Hub Professional, src: portal, note: true }
+  team.roles: { value: partial, tier: free, src: permissions, note: true }
+  team.field_permissions: { value: yes, tier: free, src: permissions, note: true }
+  team.audit: { value: yes, tier: free, src: history, note: true }
+  data.reports: { value: yes, tier: free, src: crmfree }
+  data.import_export: { value: yes, tier: free, src: crmfree }
+  data.webhooks: { value: yes, tier: paid, tier_name: Data Hub Professional, src: workflow_webhooks, note: true }
+  data.rest_api: { value: yes, tier: free, src: api }
+  commerce.woocommerce: { value: partial, tier: free, src: woocommerce, note: true }
+  commerce.invoices: { value: yes, tier: free, src: invoices, note: true }
+  integrations.form_plugins: { value: yes, tier: free, src: wporg, note: true }
+  integrations.calendar_sync: { value: yes, tier: free, src: crmfree }
+  extras.storage: { text: true, src: wporg }
+  extras.frontend_app: { value: no, src: wporg, note: true }

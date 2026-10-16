@@ -1,0 +1,17 @@
+items:
+  - q: What is the best WordPress CRM plugin?
+    a: It depends on what you need the CRM for. For email marketing, FluentCRM has the largest self-hosted user base and a strong rating. For a free hosted CRM, HubSpot. For quotes and invoices, Jetpack CRM. For a sales pipeline, support cases and team permissions without paying, Plugixa CRM.
+  - q: Which WordPress CRM plugin is free?
+    a: "All seven have a free version, but they hold back different things. Plugixa CRM gives deals, pipelines, cases and a customer portal free. FluentCRM and Groundhogg give email campaigns and automation free. Jetpack CRM gives quotes and invoices free. HubSpot's free hosted plan is limited to two users and 1,000 contacts."
+  - q: Which WordPress CRM plugins have a sales pipeline?
+    a: "Plugixa CRM and HubSpot have deals on a kanban board in their free versions. WP ERP and Groundhogg have one in a paid plan. FluentCRM and Jetpack CRM have no deals or pipeline, and WP-CRM System has opportunities without stages."
+  - q: What is the difference between an email marketing CRM and a sales CRM?
+    a: An email marketing CRM is built around a contact list, tags and automated email; FluentCRM and Groundhogg are examples. A sales CRM is built around companies, deals and a pipeline, with activities and permissions for a team; Plugixa CRM is one. Many businesses need one more than the other.
+  - q: Where is my CRM data stored?
+    a: "Six of the seven plugins store data in your WordPress database. HubSpot is the exception: its plugin connects your site to HubSpot's hosted CRM, and contacts and deals are stored on HubSpot's servers."
+  - q: Can I move from one CRM plugin to another?
+    a: Contacts and companies usually move through a CSV export and import. Deals, email history, tickets and invoices often do not. Run the import on a staging copy first and check what came across.
+  - q: Who runs this comparison?
+    a: Plugixa, the company that makes Plugixa CRM. That is a conflict of interest. To limit it, every value links to its source, each plugin page lists weaknesses as well as strengths, and our own plugin is ranked first only where the data supports it.
+  - q: How often is the data updated?
+    a: Install counts, ratings and version numbers are read from the wordpress.org API every week. Features and prices are checked by hand, and each plugin page shows the date of the last check.

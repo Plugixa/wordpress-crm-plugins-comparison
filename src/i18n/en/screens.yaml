@@ -1,0 +1,8 @@
+# Plugixa CRM screenshots shown on its review page. Files are in public/plugixa/.
+items:
+  - { file: dashboard.webp, alt: "Dashboard with open pipeline, deals won this month, overdue activities and leads" }
+  - { file: opportunities.webp, alt: "Opportunities on a drag-and-drop board, with a probability on each stage" }
+  - { file: account-detail.webp, alt: "An account with its contacts and their roles, notes, files and activity stream" }
+  - { file: calendar.webp, alt: "Calendar showing tasks, calls and meetings together" }
+  - { file: cases.webp, alt: "Support cases list with status, priority and type" }
+  - { file: roles.webp, alt: "Role editor with all, team, own or none access per record type and action" }

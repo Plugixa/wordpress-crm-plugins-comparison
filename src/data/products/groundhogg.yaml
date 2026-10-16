@@ -1,0 +1,65 @@
+slug: groundhogg
+name: Groundhogg
+vendor: Groundhogg Inc.
+own: false
+kind: marketing
+order: 6
+wporg_slug: groundhogg
+homepage: https://groundhogg.io/
+verified_at: 2026-10-16
+version_checked: "4.9.4"
+sources:
+  wporg: { url: "https://wordpress.org/plugins/groundhogg/", method: docs }
+  source: { url: "https://plugins.trac.wordpress.org/browser/groundhogg/tags/4.9.4/", method: source-code }
+  pricing: { url: "https://groundhogg.io/pricing/", method: docs }
+  extensions: { url: "https://groundhogg.io/downloads/", method: docs }
+  pipeline: { url: "https://groundhogg.io/downloads/pipeline/", method: docs }
+  pipeline_deals: { url: "https://help.groundhogg.io/article/940-sales-pipeline-deals", method: docs }
+  companies: { url: "https://groundhogg.io/downloads/companies/", method: docs }
+  booking_calendar: { url: "https://groundhogg.io/downloads/booking-calendar/", method: docs }
+  woocommerce: { url: "https://groundhogg.io/downloads/woocommerce/", method: docs }
+pricing:
+  source: pricing
+  currency: USD
+  free: true
+  lifetime: false
+  refund: days_14
+  tiers:
+    - { name: Basic, price: 240, period: year, sites: "1" }
+    - { name: Plus, price: 480, period: year, sites: "3" }
+    - { name: Pro, price: 600, period: year, sites: "5" }
+    - { name: Agency, price: 1200, period: year, sites: "25" }
+features:
+  records.contacts: { value: yes, tier: free, src: wporg }
+  records.companies: { value: yes, tier: paid, tier_name: Plus, src: companies, note: true }
+  records.custom_fields: { value: yes, tier: free, src: wporg }
+  records.duplicates: { value: partial, tier: free, src: source, note: true }
+  pipeline.deals: { value: yes, tier: paid, tier_name: Plus, src: pipeline_deals, note: true }
+  pipeline.kanban: { value: yes, tier: paid, tier_name: Plus, src: pipeline_deals }
+  pipeline.multiple: { value: yes, tier: paid, tier_name: Plus, src: pipeline }
+  pipeline.forecast: { value: unverified }
+  pipeline.lead_convert: { value: no, src: source, note: true }
+  activities.tasks: { value: yes, tier: free, src: source }
+  activities.calendar: { value: unverified }
+  activities.calls: { value: yes, tier: free, src: source }
+  activities.email_send: { value: yes, tier: free, src: source }
+  activities.email_inbox: { value: partial, tier: paid, tier_name: Pro, src: source, note: true }
+  marketing.newsletters: { value: yes, tier: free, src: wporg }
+  marketing.automation: { value: yes, tier: free, src: wporg }
+  marketing.forms: { value: yes, tier: free, src: source }
+  support.tickets: { value: no, src: extensions, note: true }
+  support.knowledge_base: { value: no, src: extensions }
+  support.portal: { value: unverified }
+  team.roles: { value: yes, tier: free, src: source, note: true }
+  team.field_permissions: { value: yes, tier: free, src: source, note: true }
+  team.audit: { value: unverified }
+  data.reports: { value: yes, tier: free, src: wporg }
+  data.import_export: { value: yes, tier: free, src: wporg }
+  data.webhooks: { value: yes, tier: paid, tier_name: Basic, src: pricing, note: true }
+  data.rest_api: { value: yes, tier: free, src: source }
+  commerce.woocommerce: { value: yes, tier: paid, tier_name: Pro, src: woocommerce, note: true }
+  commerce.invoices: { value: no, src: extensions }
+  integrations.form_plugins: { value: yes, tier: paid, tier_name: Plus, src: pricing, note: true }
+  integrations.calendar_sync: { value: yes, tier: paid, tier_name: Plus, src: booking_calendar, note: true }
+  extras.storage: { text: true, src: pricing }
+  extras.frontend_app: { value: unverified }

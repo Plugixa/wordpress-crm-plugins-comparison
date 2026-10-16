@@ -1,0 +1,17 @@
+items:
+  - q: Quel est le meilleur plugin CRM pour WordPress ?
+    a: "Tout dépend de l'usage que vous voulez faire du CRM. Pour l'e-mailing, FluentCRM a la plus large base d'utilisateurs auto-hébergés et une bonne note. Pour un CRM hébergé gratuit, HubSpot. Pour les devis et les factures, Jetpack CRM. Pour un pipeline commercial, des dossiers de support et des permissions d'équipe sans payer, Plugixa CRM."
+  - q: Quel plugin CRM WordPress est gratuit ?
+    a: "Les sept ont une version gratuite, mais ils réservent des choses différentes aux formules payantes. Plugixa CRM offre gratuitement les affaires, les pipelines, les dossiers et un portail client. FluentCRM et Groundhogg offrent gratuitement les campagnes e-mail et l'automatisation. Jetpack CRM offre gratuitement les devis et les factures. La formule hébergée gratuite de HubSpot est limitée à deux utilisateurs et 1 000 contacts."
+  - q: Quels plugins CRM WordPress ont un pipeline commercial ?
+    a: "Plugixa CRM et HubSpot proposent des affaires sur un tableau kanban dans leur version gratuite. WP ERP et Groundhogg en proposent un dans une formule payante. FluentCRM et Jetpack CRM n'ont ni affaires ni pipeline, et WP-CRM System a des opportunités sans étapes."
+  - q: Quelle est la différence entre un CRM d'e-mailing et un CRM commercial ?
+    a: "Un CRM d'e-mailing est construit autour d'une liste de contacts, de tags et d'e-mails automatisés ; FluentCRM et Groundhogg en sont des exemples. Un CRM commercial est construit autour des entreprises, des affaires et d'un pipeline, avec des activités et des permissions pour une équipe ; Plugixa CRM en fait partie. Beaucoup d'entreprises ont davantage besoin de l'un que de l'autre."
+  - q: Où sont stockées les données de mon CRM ?
+    a: "Six des sept plugins stockent les données dans votre base de données WordPress. HubSpot fait exception : son plugin relie votre site au CRM hébergé de HubSpot, et les contacts et affaires sont stockés sur les serveurs de HubSpot."
+  - q: Puis-je passer d'un plugin CRM à un autre ?
+    a: "Les contacts et les entreprises se transfèrent généralement par un export et un import CSV. Les affaires, l'historique des e-mails, les tickets et les factures, souvent pas. Lancez d'abord l'import sur une copie de préproduction et vérifiez ce qui a été repris."
+  - q: Qui gère ce comparatif ?
+    a: "Plugixa, la société qui édite Plugixa CRM. C'est un conflit d'intérêts. Pour le limiter, chaque valeur renvoie à sa source, chaque page de plugin liste les points faibles comme les points forts, et notre propre plugin n'est classé premier que là où les données le justifient."
+  - q: À quelle fréquence les données sont-elles mises à jour ?
+    a: "Le nombre d'installations, les notes et les numéros de version sont lus chaque semaine via l'API de wordpress.org. Les fonctionnalités et les prix sont vérifiés à la main, et chaque page de plugin indique la date de la dernière vérification."

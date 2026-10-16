@@ -1,0 +1,59 @@
+slug: plugixa-crm
+name: Plugixa CRM
+vendor: Plugixa
+own: true
+kind: sales
+order: 1
+# No wporg_slug yet: the plugin is not listed on wordpress.org. Add `wporg_slug: plugixa-crm`
+# once it is approved, and the weekly build will fill in installs, rating and version.
+homepage: https://www.plugixa.com/plugins/plugixa-crm
+verified_at: 2026-10-16
+version_checked: "1.0.0"
+sources:
+  code: { url: "https://www.plugixa.com/plugins/plugixa-crm", method: source-code }
+  docs: { url: "https://www.plugixa.com/documentation/plugixa-crm", method: docs }
+  free_vs_pro: { url: "https://www.plugixa.com/documentation/plugixa-crm/free-vs-pro", method: docs }
+  pricing: { url: "https://www.plugixa.com/plugins/plugixa-crm#pricing", method: docs }
+pricing:
+  source: pricing
+  currency: EUR
+  free: true
+  lifetime: false
+  refund: defect_14
+  tiers:
+    - { name: Pro, price: 39, period: year, sites: "1" }
+    - { name: Pro, price: 59, period: year, sites: unlimited }
+features:
+  records.contacts: { value: yes, tier: free, src: code, note: true }
+  records.companies: { value: yes, tier: free, src: code, note: true }
+  records.custom_fields: { value: yes, tier: paid, tier_name: Pro, src: free_vs_pro, note: true }
+  records.duplicates: { value: yes, tier: free, src: code }
+  pipeline.deals: { value: yes, tier: free, src: code }
+  pipeline.kanban: { value: yes, tier: free, src: code }
+  pipeline.multiple: { value: yes, tier: free, src: code }
+  pipeline.forecast: { value: yes, tier: free, src: code, note: true }
+  pipeline.lead_convert: { value: yes, tier: free, src: code, note: true }
+  activities.tasks: { value: yes, tier: free, src: code }
+  activities.calendar: { value: yes, tier: free, src: code, note: true }
+  activities.calls: { value: yes, tier: free, src: code }
+  activities.email_send: { value: yes, tier: free, src: code, note: true }
+  activities.email_inbox: { value: yes, tier: free, src: code, note: true }
+  marketing.newsletters: { value: yes, tier: free, src: code, note: true }
+  marketing.automation: { value: "no", src: free_vs_pro, note: true }
+  marketing.forms: { value: yes, tier: free, src: code, note: true }
+  support.tickets: { value: yes, tier: free, src: code, note: true }
+  support.knowledge_base: { value: yes, tier: free, src: code, note: true }
+  support.portal: { value: yes, tier: free, src: code, note: true }
+  team.roles: { value: yes, tier: free, src: code, note: true }
+  team.field_permissions: { value: yes, tier: free, src: code, note: true }
+  team.audit: { value: yes, tier: free, src: code }
+  data.reports: { value: yes, tier: free, src: code, note: true }
+  data.import_export: { value: yes, tier: free, src: code, note: true }
+  data.webhooks: { value: yes, tier: free, src: code }
+  data.rest_api: { value: yes, tier: free, src: docs, note: true }
+  commerce.woocommerce: { value: yes, tier: paid, tier_name: Pro, src: free_vs_pro, note: true }
+  commerce.invoices: { value: "no", src: code, note: true }
+  integrations.form_plugins: { value: yes, tier: paid, tier_name: Pro, src: free_vs_pro, note: true }
+  integrations.calendar_sync: { value: yes, tier: paid, tier_name: Pro, src: free_vs_pro, note: true }
+  extras.storage: { text: true, src: code }
+  extras.frontend_app: { value: yes, tier: free, src: code, note: true }

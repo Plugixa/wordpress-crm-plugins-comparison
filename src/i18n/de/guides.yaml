@@ -1,0 +1,92 @@
+# Keyed by guide slug in src/data/pages.yaml. `picks` is keyed by product slug.
+best-wordpress-crm-plugins:
+  title: "Die besten WordPress CRM-Plugins ({year}): 7 im Vergleich, mit Quellen"
+  nav: Die besten CRM-Plugins insgesamt
+  description: Sieben gepflegte WordPress CRM-Plugins, geordnet nach ihrer jeweiligen Stärke, mit Preisen, Zahlen von wordpress.org und Quellen.
+  h1: Die besten WordPress CRM-Plugins
+  intro:
+    - "„CRM“ bedeutet in WordPress Unterschiedliches. Manche Plugins sind E-Mail-Marketing-Tools mit einer Kontaktliste. Manche sind Vertriebs-CRMs mit Firmen, Deals und einer Pipeline. Eines ist eine Business-Suite, und eines verbindet Ihre Website mit einem anderswo gehosteten CRM."
+    - Die Rangfolge unten geht von den Anforderungen eines typischen kleinen Unternehmens aus und behandelt dann die Fälle, in denen ein anderes Plugin besser passt.
+  picks:
+    fluentcrm: Das meistgenutzte selbst gehostete CRM auf wordpress.org, mit einer guten Bewertung. Kontakte, Firmen, Kampagnen und einfache Automatisierung sind kostenlos, und jeder kostenpflichtige Tarif erlaubt unbegrenzt viele Kontakte. Es hat keine Deals und keine Pipeline und ist damit in erster Linie ein E-Mail-Marketing-CRM.
+    hubspot: Die größte Nutzerbasis hier und ein kostenloses gehostetes CRM mit Kontakten, Deals, Tickets und Formularen. Ihre Daten liegen auf den Servern von HubSpot, der kostenlose Tarif endet bei zwei Nutzern und 1.000 Kontakten, und die kostenpflichtigen Tarife werden pro Platz berechnet.
+    jetpack-crm: Kontakte, Firmen, Angebote, Rechnungen und ein Kundenportal kostenlos, von Automattic. Es hat keine Deals und keine Pipeline, und Kampagnen und Automatisierung sind kostenpflichtige Erweiterungen.
+    plugixa-crm: "Unser eigenes Plugin. Es hat hier das umfangreichste kostenlose CRM für Vertrieb und Service: Deals auf einem Pipeline-Board, Fälle, eine Wissensdatenbank, ein Kundenportal und Team-Berechtigungen, ohne kostenpflichtige Stufe für eine dieser Funktionen. Es steht hier und nicht weiter oben, weil es neu ist, noch nicht auf wordpress.org verfügbar ist und keine Automatisierung hat."
+    wp-erp: Ein CRM innerhalb einer Suite für Personalwesen und Buchhaltung. Das kostenlose CRM umfasst Kontakte, Firmen, Aktivitäten und E-Mail in beide Richtungen; Deals und Workflows erfordern einen Tarif, der pro Nutzer berechnet wird.
+    groundhogg: Starke kostenlose Automatisierung, mit einem visuellen Ablaufeditor und unbegrenzt vielen Kontakten. Pipeline und Firmendatensätze erfordern den Plus-Tarif für $480 pro Jahr, und die Nutzerbasis ist klein.
+    wp-crm-system: Ein einfaches Werkzeug für Kunden und Projekte, das es seit Jahren gibt. Verkaufschancen haben keine Phasen und kein Board, und benutzerdefinierte Felder erfordern eine kostenpflichtige Erweiterung.
+  how:
+    - Wir haben nach vier überprüfbaren Kriterien geordnet. Das sind der Umfang der kostenlosen Version, die Kosten der kostenpflichtigen Tarife, wie aktiv das Plugin gepflegt wird und was seine Nutzer auf wordpress.org sagen.
+    - Wir haben keine Geschwindigkeitstests durchgeführt und nicht jede Funktion von Hand getestet. Die Werte stammen von den eigenen Seiten der Anbieter; die Seite zur Methodik erklärt die Grenzen dieses Ansatzes.
+
+best-free-crm-plugins:
+  title: "Die besten kostenlosen WordPress CRM-Plugins ({year})"
+  nav: Die besten kostenlosen CRM-Plugins
+  description: Was jedes kostenlose WordPress CRM-Plugin ohne Bezahlung enthält, von Pipelines und Support bis zu E-Mail-Kampagnen, mit Quellen.
+  h1: Die besten kostenlosen WordPress CRM-Plugins
+  intro:
+    - Jedes Plugin hier hat eine kostenlose Version, aber sie halten unterschiedliche Dinge zurück. Eines bietet eine Pipeline kostenlos und verlangt Geld für benutzerdefinierte Felder. Ein anderes bietet Automatisierung kostenlos und verlangt Geld für die Pipeline.
+    - Welches kostenlose CRM das richtige ist, hängt davon ab, auf welche Funktion Sie am wenigsten verzichten können.
+  picks:
+    plugixa-crm: "Firmen, Deals, mehrere Pipelines, eine Umsatzprognose, Fälle, eine Wissensdatenbank, ein Kundenportal, Rollen, E-Mail-Kampagnen und eingehende E-Mails, alles kostenlos. Benutzerdefinierte Felder und Integrationen gibt es in Pro."
+    fluentcrm: Kostenlose Kontakte, Firmen, benutzerdefinierte Felder, Kampagnen und einfache Automatisierung, mit unbegrenzt vielen Kontakten. Keine Pipeline, und der Kontaktexport erfordert Pro.
+    hubspot: Kostenlose Kontakte, Deals, Tickets, Formulare und Marketing-E-Mails, gehostet von HubSpot. Begrenzt auf zwei Nutzer und 1.000 Kontakte, mit HubSpot-Branding.
+    jetpack-crm: Kostenlose Kontakte, Firmen, benutzerdefinierte Felder, Angebote, Rechnungen und ein Kundenportal. Keine Pipeline; Kampagnen sind eine kostenpflichtige Erweiterung.
+    wp-erp: Kostenlose Kontakte, Firmen, Aktivitäten, E-Mail in beide Richtungen, Rollen und Rechnungen über das Buchhaltungsmodul. Deals erfordern einen kostenpflichtigen Tarif.
+    groundhogg: Kostenlose Kontakte, Rundsendungen, ein visueller Automatisierungseditor, Formulare und Berichte, mit unbegrenzt vielen Kontakten. Die Pipeline erfordert einen kostenpflichtigen Tarif.
+  how:
+    - "Eine Funktion gilt nur dann als kostenlos, wenn die eigenen Seiten des Anbieters sie der kostenlosen Version zuordnen. Wo wir den Tarif nicht bestätigen konnten, steht in der Tabelle „Nicht geprüft“."
+    - "Wenn Sie eine Vertriebspipeline ohne Bezahlung brauchen, bieten nur Plugixa CRM und der kostenlose gehostete Tarif von HubSpot eine."
+
+crm-plugins-with-sales-pipeline:
+  title: "WordPress CRM-Plugins mit Vertriebspipeline ({year})"
+  nav: CRM-Plugins mit Vertriebspipeline
+  description: Die WordPress CRM-Plugins, die Deals über Phasen auf einem Pipeline-Board verfolgen, was sie jeweils kosten und welche das kostenlos bieten.
+  h1: WordPress CRM-Plugins mit Vertriebspipeline
+  intro:
+    - Eine Vertriebspipeline verfolgt Deals über Phasen, jeweils mit einem Wert und einem erwarteten Abschlussdatum. Die meisten WordPress CRM-Plugins haben keine; sie sind um eine Kontaktliste und E-Mail herum aufgebaut.
+    - Vier der sieben Plugins hier haben Deals auf einem Kanban-Board. Nur zwei bieten das in einer kostenlosen Version.
+  picks:
+    plugixa-crm: Deals, mehrere Pipelines mit eigenen Phasen, ein Kanban-Board, eine gewichtete Umsatzprognose und Lead-Konvertierung, alles kostenlos und in Ihrer eigenen Datenbank gespeichert.
+    hubspot: Deals und ein Kanban-Board im kostenlosen gehosteten Tarif. Mehrere Pipelines und Umsatzprognosen erfordern einen kostenpflichtigen Tarif, und die Daten liegen auf den Servern von HubSpot.
+    wp-erp: Deals und ein Pipeline-Board im Growth-Tarif, der pro Nutzer berechnet wird, neben Personalwesen und Buchhaltung.
+    groundhogg: Eine Pipeline-Erweiterung im Plus-Tarif für $480 pro Jahr, verbunden mit den Automatisierungsabläufen.
+  how:
+    - Wir haben ein Plugin nur gezählt, wenn es Deal-Datensätze mit Phasen und eine Board-Ansicht hat, wie auf der Seite zur Methodik definiert.
+    - WP-CRM System hat Verkaufschancen mit einer Wahrscheinlichkeit und dem Status gewonnen oder verloren, aber keine Phasen und kein Board, daher ist es nicht aufgeführt.
+
+crm-plugins-with-email-marketing:
+  title: "WordPress CRM-Plugins mit E-Mail-Marketing ({year})"
+  nav: CRM-Plugins mit E-Mail-Marketing
+  description: WordPress CRM-Plugins, die Newsletter und automatisierte E-Mails versenden, verglichen nach Automatisierung, Preis und Speicherort Ihrer Liste.
+  h1: WordPress CRM-Plugins mit E-Mail-Marketing
+  intro:
+    - Viele WordPress-CRMs haben als E-Mail-Marketing-Tools angefangen, und das merkt man. Sie sind stark bei Newslettern, Tags und automatisierten Sequenzen und schwächer im Vertrieb.
+    - Die Empfehlungen unten sind danach geordnet, wie viel E-Mail-Marketing Sie bekommen und zu welchem Preis.
+  picks:
+    fluentcrm: Kampagnen und einfache Automatisierung kostenlos, mit Sequenzen, erweiterten Segmenten und mehr als 45 Integrationen in Pro. Unbegrenzt viele Kontakte in jedem Tarif.
+    groundhogg: Rundsendungen und ein visueller Editor für Automatisierungsabläufe kostenlos, mit unbegrenzt vielen Kontakten und Sendungen.
+    hubspot: Marketing-E-Mails und Formulare im kostenlosen gehosteten Tarif, Automatisierung ab dem kostenpflichtigen Starter-Tarif.
+    jetpack-crm: Kampagnen und Automatisierungen als kostenpflichtige Erweiterungen oder im Entrepreneur-Tarif enthalten.
+    plugixa-crm: Kampagnen, Ziellisten und Massen-E-Mails mit Öffnungs- und Klick-Tracking sind kostenlos. Automatisierung gibt es nicht, daher eignet es sich eher für gelegentliche Mailings als für Sequenzen.
+  how:
+    - Wir haben geprüft, ob Kampagnen und Automatisierung kostenlos sind, wie viele Kontakte jeder Tarif erlaubt und ob der Versand einen externen Dienst erfordert.
+    - Alle selbst gehosteten Plugins versenden über Ihre eigene Mail-Konfiguration, die Zustellung hängt also von Ihrem SMTP-Anbieter ab.
+
+crm-plugins-for-woocommerce:
+  title: "Die besten WordPress CRM-Plugins für WooCommerce ({year})"
+  nav: CRM-Plugins für WooCommerce
+  description: WordPress CRM-Plugins, die WooCommerce-Kunden und -Bestellungen mit Kontakten verknüpfen, verglichen danach, was kostenlos ist und was sie kosten.
+  h1: Die besten CRM-Plugins für WooCommerce
+  intro:
+    - Ein CRM für einen WooCommerce-Shop sollte jeden Kunden mit seinen Bestellungen verknüpfen, damit Sie sehen, wer was kauft, und darauf reagieren können.
+    - Manche Plugins tun das kostenlos. Andere erfordern einen kostenpflichtigen Tarif oder eine separate Erweiterung.
+  picks:
+    fluentcrm: Die WooCommerce-Kaufhistorie an einem Kontakt ist kostenlos; kaufbasierte Automatisierung und Segmente gibt es in Pro.
+    jetpack-crm: Die WooCommerce-Synchronisierung ist im kostenlosen Plugin enthalten.
+    groundhogg: Eine WooCommerce-Integration im Pro-Tarif für $600 pro Jahr, eingebunden in die Automatisierungsabläufe.
+    wp-erp: WooCommerce-Synchronisierung im Growth-Tarif, neben dem Buchhaltungsmodul.
+    plugixa-crm: Verknüpft WooCommerce-Kunden und ihre Bestellhistorie in Pro mit Kontakten.
+  how:
+    - Wir haben nur Integrationen gezählt, die der Anbieter auf seinen eigenen Seiten dokumentiert.
+    - HubSpot ist nicht aufgeführt, weil seine WooCommerce-Synchronisierung auf Apps von Drittanbietern angewiesen ist.

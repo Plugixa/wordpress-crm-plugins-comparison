@@ -1,0 +1,92 @@
+# Keyed by guide slug in src/data/pages.yaml. `picks` is keyed by product slug.
+best-wordpress-crm-plugins:
+  title: "Best WordPress CRM Plugins ({year}): 7 Compared With Sources"
+  nav: Best CRM plugins overall
+  description: Seven maintained WordPress CRM plugins ranked by what each does best, with prices, wordpress.org numbers and sources.
+  h1: Best WordPress CRM plugins
+  intro:
+    - '"CRM" means different things in WordPress. Some plugins are email marketing tools with a contact list. Some are sales CRMs with companies, deals and a pipeline. One is a business suite, and one connects your site to a CRM hosted elsewhere.'
+    - The ranking below starts from the needs of a typical small business, then covers the cases where another plugin fits better.
+  picks:
+    fluentcrm: The most used self-hosted CRM on wordpress.org, with a strong rating. Contacts, companies, campaigns and basic automation are free, and every paid plan has unlimited contacts. It has no deals or pipeline, so it is an email marketing CRM first.
+    hubspot: The largest install base here, and a free hosted CRM with contacts, deals, tickets and forms. Your data lives on HubSpot's servers, the free plan stops at two users and 1,000 contacts, and paid plans are priced per seat.
+    jetpack-crm: Contacts, companies, quotes, invoices and a client portal free, from Automattic. It has no deals or pipeline, and campaigns and automation are paid extensions.
+    plugixa-crm: "Our own plugin. It has the deepest free sales and service CRM here: deals on a pipeline board, cases, a knowledge base, a customer portal and team permissions, with no paid tier for any of them. It ranks here, not higher, because it is new, is not yet on wordpress.org, and has no automation."
+    wp-erp: A CRM inside an HR and accounting suite. The free CRM covers contacts, companies, activities and two-way email; deals and workflows need a plan priced per user.
+    groundhogg: Strong free automation, with a visual flow editor and unlimited contacts. The pipeline and company records need the Plus plan at $480 a year, and its install base is small.
+    wp-crm-system: A simple client and project tracker that has been around for years. Opportunities have no stages or board, and custom fields need a paid extension.
+  how:
+    - We ranked on four things that can be checked. They are what the free version includes, what the paid plans cost, how actively the plugin is maintained, and what its wordpress.org users say.
+    - We did not run speed tests, and we did not test every feature by hand. Values come from each vendor's own pages; the methodology page explains the limits of that.
+
+best-free-crm-plugins:
+  title: "Best Free WordPress CRM Plugins ({year})"
+  nav: Best free CRM plugins
+  description: What each free WordPress CRM plugin includes without paying, from pipelines and support to email campaigns, with sources.
+  h1: Best free WordPress CRM plugins
+  intro:
+    - Every plugin here has a free version, but they hold back different things. One gives a pipeline free and charges for custom fields. Another gives automation free and charges for the pipeline.
+    - The right free CRM depends on which feature you can least do without.
+  picks:
+    plugixa-crm: "Companies, deals, several pipelines, a forecast, cases, a knowledge base, a customer portal, roles, email campaigns and incoming email, all free. Custom fields and integrations are in Pro."
+    fluentcrm: Free contacts, companies, custom fields, campaigns and basic automation, with unlimited contacts. No pipeline, and contact export needs Pro.
+    hubspot: Free contacts, deals, tickets, forms and marketing email, hosted by HubSpot. Limited to two users and 1,000 contacts, with HubSpot branding.
+    jetpack-crm: Free contacts, companies, custom fields, quotes, invoices and a client portal. No pipeline; campaigns are a paid extension.
+    wp-erp: Free contacts, companies, activities, two-way email, roles and invoices through the accounting module. Deals need a paid plan.
+    groundhogg: Free contacts, broadcasts, a visual automation editor, forms and reports, with unlimited contacts. The pipeline needs a paid plan.
+  how:
+    - A feature counts as free only if the vendor's own pages put it in the free version. Where we could not confirm the tier, the table says "Not checked".
+    - "If you need a sales pipeline without paying, only Plugixa CRM and HubSpot's hosted free plan include one."
+
+crm-plugins-with-sales-pipeline:
+  title: "WordPress CRM Plugins With a Sales Pipeline ({year})"
+  nav: CRM plugins with a sales pipeline
+  description: The WordPress CRM plugins that track deals through stages on a pipeline board, what each costs, and which have it free.
+  h1: WordPress CRM plugins with a sales pipeline
+  intro:
+    - A sales pipeline tracks deals through stages, with a value and an expected close date on each. Most WordPress CRM plugins do not have one; they are built around a contact list and email.
+    - Four of the seven plugins here have deals on a kanban board. Only two include it in a free version.
+  picks:
+    plugixa-crm: Deals, several pipelines with their own stages, a kanban board, a weighted forecast and lead conversion, all free and stored in your own database.
+    hubspot: Deals and a kanban board on the free hosted plan. Several pipelines and forecasting need a paid plan, and the data is on HubSpot's servers.
+    wp-erp: Deals and a pipeline board with the Growth plan, priced per user, alongside HR and accounting.
+    groundhogg: A pipeline extension with the Plus plan at $480 a year, connected to its automation flows.
+  how:
+    - We counted a plugin only if it has deal records with stages and a board view, as defined on the methodology page.
+    - WP-CRM System has opportunities with a probability and a won or lost status, but no stages or board, so it is not listed.
+
+crm-plugins-with-email-marketing:
+  title: "WordPress CRM Plugins With Email Marketing ({year})"
+  nav: CRM plugins with email marketing
+  description: WordPress CRM plugins that send newsletters and automated email, compared on automation, price and where your list is stored.
+  h1: WordPress CRM plugins with email marketing
+  intro:
+    - Many WordPress CRMs started as email marketing tools, and it shows. They are strong at newsletters, tags and automated sequences, and lighter on sales.
+    - The picks below are ranked by how much email marketing you get, and at what price.
+  picks:
+    fluentcrm: Campaigns and basic automation free, with sequences, advanced segments and 45+ integrations in Pro. Unlimited contacts on every plan.
+    groundhogg: Broadcasts and a visual automation flow editor free, with unlimited contacts and sends.
+    hubspot: Marketing email and forms on the free hosted plan, with automation from the paid Starter plan upwards.
+    jetpack-crm: Campaigns and automations as paid extensions, or included in the Entrepreneur plan.
+    plugixa-crm: Campaigns, target lists and mass email with open and click tracking are free. There is no automation, so it suits occasional mailings rather than sequences.
+  how:
+    - We looked at whether campaigns and automation are free, how many contacts each plan allows, and whether sending needs an outside service.
+    - All the self-hosted plugins send through your own mail setup, so delivery depends on your SMTP provider.
+
+crm-plugins-for-woocommerce:
+  title: "Best WordPress CRM Plugins for WooCommerce ({year})"
+  nav: CRM plugins for WooCommerce
+  description: WordPress CRM plugins that link WooCommerce customers and orders to contacts, compared on what is free and what each costs.
+  h1: Best CRM plugins for WooCommerce
+  intro:
+    - A CRM for a WooCommerce store should link each customer to their orders, so that you can see who buys what and act on it.
+    - Some plugins do this free. Others need a paid plan or a separate extension.
+  picks:
+    fluentcrm: WooCommerce purchase history on a contact is free; purchase-based automation and segments are in Pro.
+    jetpack-crm: WooCommerce sync is built into the free plugin.
+    groundhogg: A WooCommerce integration with the Pro plan at $600 a year, tied into its automation flows.
+    wp-erp: WooCommerce sync with the Growth plan, alongside the accounting module.
+    plugixa-crm: Links WooCommerce customers and their order history to contacts in Pro.
+  how:
+    - We counted only integrations the vendor documents on its own pages.
+    - HubSpot is left out because its WooCommerce sync relies on third-party apps.

@@ -1,0 +1,8 @@
+# Plugixa CRM screenshots shown on its review page. Files are in public/plugixa/.
+items:
+  - { file: dashboard.webp, alt: "Panel con el embudo abierto, las oportunidades ganadas este mes, las actividades vencidas y los leads" }
+  - { file: opportunities.webp, alt: "Oportunidades en un tablero de arrastrar y soltar, con una probabilidad en cada etapa" }
+  - { file: account-detail.webp, alt: "Una cuenta con sus contactos y la función de cada uno, notas, archivos y flujo de actividad" }
+  - { file: calendar.webp, alt: "Calendario que muestra tareas, llamadas y reuniones juntas" }
+  - { file: cases.webp, alt: "Lista de casos de soporte con estado, prioridad y tipo" }
+  - { file: roles.webp, alt: "Editor de roles con acceso a todo, al equipo, a lo propio o a nada por tipo de registro y acción" }

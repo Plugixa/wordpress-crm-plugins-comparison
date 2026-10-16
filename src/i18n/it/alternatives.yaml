@@ -1,0 +1,58 @@
+# Keyed by `target` in src/data/pages.yaml. `picks` is keyed by product slug.
+hubspot:
+  description: "Alternative al plugin WordPress di HubSpot che tengono i dati del CRM nel tuo database, confrontate per prezzo e funzioni, con le fonti."
+  intro: "Il CRM gratuito di HubSpot è generoso e il plugin si installa in pochi minuti. Si cerca altro perché i dati stanno sui server di HubSpot, e perché i costi crescono per postazione una volta superati i limiti gratuiti."
+  why:
+    - "Tutti i dati del CRM sono salvati sui server di HubSpot, non nel tuo database WordPress."
+    - "Il piano gratuito è limitato a due utenti e 1.000 contatti, con il marchio HubSpot."
+    - "I piani a pagamento hanno un prezzo per postazione, quindi il costo cresce con il team."
+    - "Previsioni, knowledge base e portale clienti richiedono i piani Professional."
+  picks:
+    fluentcrm: "Email marketing self-hosted con contatti illimitati in ogni piano, con prezzo per sito anziché per postazione."
+    jetpack-crm: "Contatti, preventivi, fatture e un portale clienti self-hosted, gratis."
+    plugixa-crm: "Trattative, pipeline, una previsione, casi, una knowledge base e un portale clienti self-hosted, tutto gratis, senza costi per postazione."
+    groundhogg: "Automazione self-hosted con un editor visuale dei flussi e contatti illimitati."
+  migrate: "Esporta contatti e aziende da HubSpot in CSV, poi usa l'importatore CSV del plugin di destinazione. Trattative, ticket e cronologia delle email non si trasferiscono in questo modo. Prova prima l'importazione su una copia di staging."
+
+fluentcrm:
+  description: "Alternative a FluentCRM confrontate per prezzo, funzioni gratuite e strumenti di vendita, con una fonte per ogni valore."
+  intro: "FluentCRM è il CRM self-hosted per l'email marketing più usato su WordPress, e una scelta solida per le newsletter. Si cerca altro quando servono strumenti di vendita o funzioni di assistenza che non ha."
+  why:
+    - "Non ci sono trattative, pipeline né previsione delle vendite."
+    - "Nel plugin stesso non c'è una coda di assistenza né una knowledge base."
+    - "Esportazione dei contatti, sequenze e permessi per i manager richiedono Pro."
+    - "Pro si rinnova a $129 l'anno per un sito dopo lo sconto del primo anno."
+  picks:
+    groundhogg: "Automazione visuale gratuita, con una pipeline di vendita nel piano Plus."
+    jetpack-crm: "Preventivi, fatture e un portale clienti, gratis."
+    plugixa-crm: "Trattative, pipeline, casi, una knowledge base, un portale clienti e permessi per il team, gratis. Non ha automazione, quindi affianca FluentCRM invece di sostituirlo per il marketing."
+    hubspot: "Un CRM in hosting con trattative e ticket nel piano gratuito."
+  migrate: "Esporta i contatti da FluentCRM in CSV (una funzione Pro) e importali nel nuovo plugin. Tag e campi personalizzati vanno mappati durante l'importazione. Prova prima su una copia di staging."
+
+jetpack-crm:
+  description: "Alternative a Jetpack CRM confrontate per prezzo, funzioni gratuite e strumenti di vendita, con una fonte per ogni valore."
+  intro: "Jetpack CRM offre gratis preventivi, fatture e un portale clienti. Si cerca altro perché non ha una pipeline di vendita, e perché campagne, automazione e la maggior parte delle integrazioni sono estensioni a pagamento."
+  why:
+    - "Non ci sono trattative, bacheca kanban né previsione delle vendite."
+    - "Campagne email e automazione sono estensioni a pagamento."
+    - "Le integrazioni con Contact Form 7 e Gravity Forms sono a pagamento."
+    - "Il piano con tutte le estensioni costa $204 l'anno per un sito."
+  picks:
+    fluentcrm: "Campagne e automazione di base gratuite, con contatti illimitati."
+    plugixa-crm: "Trattative, pipeline, una previsione, campagne email, casi e permessi per il team, gratis. Non ha fatture."
+    wp-erp: "Un CRM con fatture gratuite tramite il modulo di contabilità, e trattative in un piano a pagamento."
+    wp-crm-system: "Un CRM semplice per clienti e progetti, con opportunità e campagne gratuite."
+  migrate: "Esporta contatti e aziende da Jetpack CRM in CSV, poi usa l'importatore del nuovo plugin. Preventivi, fatture e transazioni non si trasferiscono. Prova prima su una copia di staging."
+
+wp-crm:
+  description: "Alternative a WP-CRM, chiuso su wordpress.org per un problema di sicurezza, confrontate con le fonti."
+  intro: "WP-CRM è stato chiuso su wordpress.org ad aprile 2022 per un problema di sicurezza e non riceve aggiornamenti tramite la directory. Se lo usi ancora, passa a un plugin mantenuto."
+  why:
+    - "È stato chiuso su wordpress.org per un problema di sicurezza."
+    - "Non riceve aggiornamenti tramite la directory dei plugin."
+  picks:
+    plugixa-crm: "Un CRM mantenuto con contatti, aziende, trattative, ruoli e un portale clienti, gratis, in tabelle del database dedicate."
+    jetpack-crm: "Un CRM per contatti mantenuto, con preventivi, fatture e un portale clienti, gratis."
+    wp-crm-system: "Un CRM mantenuto che, come WP-CRM, salva i record come articoli WordPress."
+    fluentcrm: "Un CRM per contatti mantenuto, con email marketing, se è per questo che usavi WP-CRM."
+  migrate: "Esporta utenti e contatti di WP-CRM in CSV, poi importali nel nuovo plugin. Prova prima su una copia di staging, e disattiva WP-CRM una volta trasferiti i dati."

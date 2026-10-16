@@ -1,0 +1,16 @@
+{
+  "slug": "groundhogg",
+  "api_url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=groundhogg",
+  "fetched_at": "2026-10-16",
+  "listed": true,
+  "name": "Groundhogg — CRM, Newsletters, and Marketing Automation",
+  "version": "4.9.4",
+  "active_installs": 2000,
+  "rating": 4.87,
+  "num_ratings": 149,
+  "last_updated": "2026-10-13",
+  "added": "2018-10-01",
+  "requires_wp": "6.9",
+  "requires_php": "7.4",
+  "tested_up_to": "7.1.3"
+}

@@ -1,0 +1,17 @@
+items:
+  - q: "¿Cuál es el mejor plugin CRM para WordPress?"
+    a: Depende de para qué necesites el CRM. Para email marketing, FluentCRM tiene la mayor base de usuarios entre los autoalojados y una buena valoración. Para un CRM alojado gratuito, HubSpot. Para presupuestos y facturas, Jetpack CRM. Para un embudo de ventas, casos de soporte y permisos de equipo sin pagar, Plugixa CRM.
+  - q: "¿Qué plugin CRM para WordPress es gratuito?"
+    a: "Los siete tienen una versión gratuita, pero cada uno se reserva cosas distintas. Plugixa CRM ofrece gratis oportunidades, embudos, casos y un portal de clientes. FluentCRM y Groundhogg ofrecen gratis campañas de email y automatización. Jetpack CRM ofrece gratis presupuestos y facturas. El plan alojado gratuito de HubSpot está limitado a dos usuarios y 1.000 contactos."
+  - q: "¿Qué plugins CRM para WordPress tienen embudo de ventas?"
+    a: "Plugixa CRM y HubSpot tienen oportunidades en un tablero kanban en sus versiones gratuitas. WP ERP y Groundhogg lo tienen en un plan de pago. FluentCRM y Jetpack CRM no tienen oportunidades ni embudo, y WP-CRM System tiene oportunidades sin etapas."
+  - q: "¿Qué diferencia hay entre un CRM de email marketing y un CRM de ventas?"
+    a: Un CRM de email marketing gira en torno a una lista de contactos, etiquetas y emails automatizados; FluentCRM y Groundhogg son ejemplos. Un CRM de ventas gira en torno a empresas, oportunidades y un embudo, con actividades y permisos para un equipo; Plugixa CRM es uno de ellos. Muchas empresas necesitan más uno que otro.
+  - q: "¿Dónde se guardan los datos de mi CRM?"
+    a: "Seis de los siete plugins guardan los datos en tu base de datos de WordPress. HubSpot es la excepción: su plugin conecta tu sitio con el CRM alojado de HubSpot, y los contactos y las oportunidades se guardan en los servidores de HubSpot."
+  - q: "¿Puedo pasar de un plugin CRM a otro?"
+    a: Los contactos y las empresas suelen trasladarse mediante una exportación e importación en CSV. Las oportunidades, el historial de emails, los tickets y las facturas a menudo no. Ejecuta primero la importación en una copia de pruebas (staging) y comprueba qué se ha trasladado.
+  - q: "¿Quién mantiene esta comparativa?"
+    a: Plugixa, la empresa que desarrolla Plugixa CRM. Eso es un conflicto de intereses. Para limitarlo, cada valor enlaza a su fuente, la página de cada plugin recoge sus puntos débiles además de los fuertes, y nuestro propio plugin solo aparece en primer lugar donde los datos lo respaldan.
+  - q: "¿Cada cuánto se actualizan los datos?"
+    a: El número de instalaciones, las valoraciones y los números de versión se leen de la API de wordpress.org cada semana. Las funciones y los precios se comprueban a mano, y la página de cada plugin muestra la fecha de la última comprobación.

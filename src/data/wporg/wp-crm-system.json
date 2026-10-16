@@ -1,0 +1,16 @@
+{
+  "slug": "wp-crm-system",
+  "api_url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=wp-crm-system",
+  "fetched_at": "2026-10-16",
+  "listed": true,
+  "name": "WP-CRM System – Manage Clients and Projects",
+  "version": "3.4.7",
+  "active_installs": 700,
+  "rating": 3.93,
+  "num_ratings": 15,
+  "last_updated": "2026-09-28",
+  "added": "2015-12-03",
+  "requires_wp": "5.9",
+  "requires_php": "7.4",
+  "tested_up_to": "7.1.3"
+}

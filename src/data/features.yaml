@@ -1,0 +1,56 @@
+# Feature taxonomy. Labels and definitions live in src/i18n/{locale}/features.yaml.
+# type: support = yes / partial / no / unverified;  text = short free text.
+areas:
+  - id: records
+    features:
+      - { id: records.contacts, type: support }
+      - { id: records.companies, type: support }
+      - { id: records.custom_fields, type: support }
+      - { id: records.duplicates, type: support }
+  - id: pipeline
+    features:
+      - { id: pipeline.deals, type: support }
+      - { id: pipeline.kanban, type: support }
+      - { id: pipeline.multiple, type: support }
+      - { id: pipeline.forecast, type: support }
+      - { id: pipeline.lead_convert, type: support }
+  - id: activities
+    features:
+      - { id: activities.tasks, type: support }
+      - { id: activities.calendar, type: support }
+      - { id: activities.calls, type: support }
+      - { id: activities.email_send, type: support }
+      - { id: activities.email_inbox, type: support }
+  - id: marketing
+    features:
+      - { id: marketing.newsletters, type: support }
+      - { id: marketing.automation, type: support }
+      - { id: marketing.forms, type: support }
+  - id: support
+    features:
+      - { id: support.tickets, type: support }
+      - { id: support.knowledge_base, type: support }
+      - { id: support.portal, type: support }
+  - id: team
+    features:
+      - { id: team.roles, type: support }
+      - { id: team.field_permissions, type: support }
+      - { id: team.audit, type: support }
+  - id: data
+    features:
+      - { id: data.reports, type: support }
+      - { id: data.import_export, type: support }
+      - { id: data.webhooks, type: support }
+      - { id: data.rest_api, type: support }
+  - id: commerce
+    features:
+      - { id: commerce.woocommerce, type: support }
+      - { id: commerce.invoices, type: support }
+  - id: integrations
+    features:
+      - { id: integrations.form_plugins, type: support }
+      - { id: integrations.calendar_sync, type: support }
+  - id: extras
+    features:
+      - { id: extras.storage, type: text }
+      - { id: extras.frontend_app, type: support }

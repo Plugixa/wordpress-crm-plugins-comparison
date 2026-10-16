@@ -1,0 +1,92 @@
+# Keyed by guide slug in src/data/pages.yaml. `picks` is keyed by product slug.
+best-wordpress-crm-plugins:
+  title: "Mejores plugins CRM para WordPress ({year}): 7 comparados con fuentes"
+  nav: Mejores plugins CRM en general
+  description: Siete plugins CRM para WordPress mantenidos, clasificados según lo que mejor hace cada uno, con precios, cifras de wordpress.org y fuentes.
+  h1: Mejores plugins CRM para WordPress
+  intro:
+    - "«CRM» significa cosas distintas en WordPress. Algunos plugins son herramientas de email marketing con una lista de contactos. Otros son CRM de ventas con empresas, oportunidades y un embudo. Uno es una suite empresarial, y otro conecta tu sitio con un CRM alojado en otra parte."
+    - La clasificación que sigue parte de las necesidades de una pequeña empresa típica y después cubre los casos en los que encaja mejor otro plugin.
+  picks:
+    fluentcrm: El CRM autoalojado más usado en wordpress.org, con una buena valoración. Los contactos, las empresas, las campañas y la automatización básica son gratuitos, y todos los planes de pago tienen contactos ilimitados. No tiene oportunidades ni embudo, así que es ante todo un CRM de email marketing.
+    hubspot: La mayor base de instalaciones de esta comparativa y un CRM alojado gratuito con contactos, oportunidades, tickets y formularios. Tus datos están en los servidores de HubSpot, el plan gratuito se queda en dos usuarios y 1.000 contactos, y los planes de pago se cobran por usuario.
+    jetpack-crm: Contactos, empresas, presupuestos, facturas y un portal de clientes gratis, de Automattic. No tiene oportunidades ni embudo, y las campañas y la automatización son extensiones de pago.
+    plugixa-crm: "Nuestro propio plugin. Tiene el CRM de ventas y servicio gratuito más completo de esta comparativa: oportunidades en un tablero de embudo, casos, base de conocimiento, portal de clientes y permisos de equipo, sin ningún nivel de pago para nada de ello. Está en este puesto, y no más arriba, porque es nuevo, todavía no está en wordpress.org y no tiene automatización."
+    wp-erp: Un CRM dentro de una suite de RR. HH. y contabilidad. El CRM gratuito cubre contactos, empresas, actividades y email bidireccional; las oportunidades y los flujos de trabajo requieren un plan con precio por usuario.
+    groundhogg: Buena automatización gratuita, con un editor visual de flujos y contactos ilimitados. El embudo y los registros de empresas requieren el plan Plus, a $480 al año, y su base de instalaciones es pequeña.
+    wp-crm-system: Un gestor sencillo de clientes y proyectos que lleva años en el mercado. Las oportunidades no tienen etapas ni tablero, y los campos personalizados requieren una extensión de pago.
+  how:
+    - Hemos clasificado según cuatro aspectos comprobables. Son lo que incluye la versión gratuita, lo que cuestan los planes de pago, lo activamente que se mantiene el plugin y lo que dicen sus usuarios en wordpress.org.
+    - No hemos hecho pruebas de velocidad ni hemos probado a mano todas las funciones. Los valores proceden de las páginas de cada desarrollador; la página de metodología explica los límites de ese enfoque.
+
+best-free-crm-plugins:
+  title: "Mejores plugins CRM gratuitos para WordPress ({year})"
+  nav: Mejores plugins CRM gratuitos
+  description: Qué incluye sin pagar cada plugin CRM gratuito para WordPress, desde embudos y soporte hasta campañas de email, con fuentes.
+  h1: Mejores plugins CRM gratuitos para WordPress
+  intro:
+    - Todos los plugins de esta lista tienen una versión gratuita, pero cada uno se reserva cosas distintas. Uno ofrece el embudo gratis y cobra por los campos personalizados. Otro ofrece la automatización gratis y cobra por el embudo.
+    - El CRM gratuito adecuado depende de la función de la que menos puedas prescindir.
+  picks:
+    plugixa-crm: "Empresas, oportunidades, varios embudos, previsión de ventas, casos, base de conocimiento, portal de clientes, roles, campañas de email y email entrante, todo gratis. Los campos personalizados y las integraciones están en Pro."
+    fluentcrm: Contactos, empresas, campos personalizados, campañas y automatización básica gratis, con contactos ilimitados. No tiene embudo, y la exportación de contactos requiere Pro.
+    hubspot: Contactos, oportunidades, tickets, formularios y email de marketing gratis, alojados por HubSpot. Limitado a dos usuarios y 1.000 contactos, con la marca de HubSpot.
+    jetpack-crm: Contactos, empresas, campos personalizados, presupuestos, facturas y un portal de clientes gratis. No tiene embudo; las campañas son una extensión de pago.
+    wp-erp: Contactos, empresas, actividades, email bidireccional, roles y facturas a través del módulo de contabilidad, gratis. Las oportunidades requieren un plan de pago.
+    groundhogg: Contactos, envíos masivos, un editor visual de automatización, formularios e informes gratis, con contactos ilimitados. El embudo requiere un plan de pago.
+  how:
+    - "Una función cuenta como gratuita solo si las páginas del propio desarrollador la sitúan en la versión gratuita. Cuando no hemos podido confirmar el nivel, la tabla indica «Sin verificar»."
+    - "Si necesitas un embudo de ventas sin pagar, solo Plugixa CRM y el plan gratuito alojado de HubSpot lo incluyen."
+
+crm-plugins-with-sales-pipeline:
+  title: "Plugins CRM para WordPress con embudo de ventas ({year})"
+  nav: Plugins CRM con embudo de ventas
+  description: Los plugins CRM para WordPress que hacen el seguimiento de oportunidades por etapas en un tablero de embudo, lo que cuesta cada uno y cuáles lo ofrecen gratis.
+  h1: Plugins CRM para WordPress con embudo de ventas
+  intro:
+    - Un embudo de ventas hace el seguimiento de las oportunidades por etapas, cada una con un importe y una fecha de cierre prevista. La mayoría de los plugins CRM para WordPress no lo tienen; están construidos en torno a una lista de contactos y el email.
+    - Cuatro de los siete plugins de esta comparativa tienen oportunidades en un tablero kanban. Solo dos lo incluyen en una versión gratuita.
+  picks:
+    plugixa-crm: Oportunidades, varios embudos con sus propias etapas, un tablero kanban, una previsión ponderada y conversión de leads, todo gratis y guardado en tu propia base de datos.
+    hubspot: Oportunidades y un tablero kanban en el plan alojado gratuito. Varios embudos y la previsión de ventas requieren un plan de pago, y los datos están en los servidores de HubSpot.
+    wp-erp: Oportunidades y un tablero de embudo con el plan Growth, con precio por usuario, junto a RR. HH. y contabilidad.
+    groundhogg: Una extensión de embudo con el plan Plus, a $480 al año, conectada a sus flujos de automatización.
+  how:
+    - Solo hemos contado un plugin si tiene registros de oportunidades con etapas y una vista de tablero, según la definición de la página de metodología.
+    - WP-CRM System tiene oportunidades con una probabilidad y un estado de ganada o perdida, pero sin etapas ni tablero, así que no aparece en la lista.
+
+crm-plugins-with-email-marketing:
+  title: "Plugins CRM para WordPress con email marketing ({year})"
+  nav: Plugins CRM con email marketing
+  description: Plugins CRM para WordPress que envían newsletters y emails automatizados, comparados por automatización, precio y dónde se guarda tu lista.
+  h1: Plugins CRM para WordPress con email marketing
+  intro:
+    - Muchos CRM para WordPress empezaron como herramientas de email marketing, y se nota. Son fuertes en newsletters, etiquetas y secuencias automatizadas, y más flojos en ventas.
+    - Las recomendaciones siguientes están ordenadas según cuánto email marketing ofrecen y a qué precio.
+  picks:
+    fluentcrm: Campañas y automatización básica gratis, con secuencias, segmentos avanzados y más de 45 integraciones en Pro. Contactos ilimitados en todos los planes.
+    groundhogg: Envíos masivos y un editor visual de flujos de automatización gratis, con contactos y envíos ilimitados.
+    hubspot: Email de marketing y formularios en el plan alojado gratuito, con automatización a partir del plan de pago Starter.
+    jetpack-crm: Campañas y automatizaciones como extensiones de pago, o incluidas en el plan Entrepreneur.
+    plugixa-crm: Las campañas, las listas de destinatarios y los envíos masivos con seguimiento de aperturas y clics son gratuitos. No tiene automatización, así que encaja con envíos ocasionales más que con secuencias.
+  how:
+    - Hemos mirado si las campañas y la automatización son gratuitas, cuántos contactos permite cada plan y si el envío requiere un servicio externo.
+    - Todos los plugins autoalojados envían a través de tu propia configuración de correo, así que la entrega depende de tu proveedor SMTP.
+
+crm-plugins-for-woocommerce:
+  title: "Mejores plugins CRM para WordPress con WooCommerce ({year})"
+  nav: Plugins CRM para WooCommerce
+  description: Plugins CRM para WordPress que vinculan los clientes y pedidos de WooCommerce con los contactos, comparados por lo que es gratis y lo que cuesta cada uno.
+  h1: Mejores plugins CRM para WooCommerce
+  intro:
+    - Un CRM para una tienda WooCommerce debería vincular cada cliente con sus pedidos, para que puedas ver quién compra qué y actuar en consecuencia.
+    - Algunos plugins lo hacen gratis. Otros requieren un plan de pago o una extensión aparte.
+  picks:
+    fluentcrm: El historial de compras de WooCommerce en un contacto es gratuito; la automatización y los segmentos basados en compras están en Pro.
+    jetpack-crm: La sincronización con WooCommerce viene integrada en el plugin gratuito.
+    groundhogg: Una integración con WooCommerce con el plan Pro, a $600 al año, conectada a sus flujos de automatización.
+    wp-erp: Sincronización con WooCommerce con el plan Growth, junto al módulo de contabilidad.
+    plugixa-crm: Vincula los clientes de WooCommerce y su historial de pedidos con los contactos en Pro.
+  how:
+    - Solo hemos contado las integraciones que el desarrollador documenta en sus propias páginas.
+    - HubSpot queda fuera porque su sincronización con WooCommerce depende de aplicaciones de terceros.

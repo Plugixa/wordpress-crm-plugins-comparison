@@ -1,0 +1,92 @@
+# Keyed by guide slug in src/data/pages.yaml. `picks` is keyed by product slug.
+best-wordpress-crm-plugins:
+  title: "Meilleurs plugins CRM WordPress ({year}) : 7 plugins comparés et sourcés"
+  nav: Meilleurs plugins CRM
+  description: "Sept plugins CRM WordPress maintenus, classés selon ce que chacun fait le mieux, avec prix, chiffres wordpress.org et sources."
+  h1: Meilleurs plugins CRM WordPress
+  intro:
+    - "Le terme « CRM » recouvre des réalités différentes dans WordPress. Certains plugins sont des outils d'e-mailing avec une liste de contacts. D'autres sont des CRM commerciaux avec des entreprises, des affaires et un pipeline. L'un est une suite de gestion, et un autre relie votre site à un CRM hébergé ailleurs."
+    - "Le classement ci-dessous part des besoins d'une petite entreprise type, puis couvre les cas où un autre plugin convient mieux."
+  picks:
+    fluentcrm: "Le CRM auto-hébergé le plus utilisé sur wordpress.org, avec une bonne note. Les contacts, les entreprises, les campagnes et l'automatisation de base sont gratuits, et toutes les formules payantes autorisent un nombre illimité de contacts. Il n'a ni affaires ni pipeline : c'est avant tout un CRM d'e-mailing."
+    hubspot: "La plus large base d'installations ici, et un CRM hébergé gratuit avec contacts, affaires, tickets et formulaires. Vos données sont stockées sur les serveurs de HubSpot, la formule gratuite s'arrête à deux utilisateurs et 1 000 contacts, et les formules payantes sont facturées par utilisateur."
+    jetpack-crm: "Contacts, entreprises, devis, factures et portail client gratuits, par Automattic. Il n'a ni affaires ni pipeline, et les campagnes et l'automatisation sont des extensions payantes."
+    plugixa-crm: "Notre propre plugin. Il offre ici le CRM commercial et de service client gratuit le plus complet : affaires sur un tableau de pipeline, dossiers de support, base de connaissances, portail client et permissions d'équipe, sans formule payante pour aucun de ces éléments. Il est classé ici, et pas plus haut, parce qu'il est récent, n'est pas encore sur wordpress.org et n'a pas d'automatisation."
+    wp-erp: "Un CRM intégré à une suite RH et comptabilité. Le CRM gratuit couvre les contacts, les entreprises, les activités et l'e-mail bidirectionnel ; les affaires et les workflows nécessitent une formule facturée par utilisateur."
+    groundhogg: "Une automatisation gratuite solide, avec un éditeur visuel de scénarios et un nombre illimité de contacts. Le pipeline et les fiches entreprises nécessitent la formule Plus, à $480 par an, et sa base d'installations est réduite."
+    wp-crm-system: "Un outil simple de suivi des clients et des projets, présent depuis des années. Les opportunités n'ont ni étapes ni tableau, et les champs personnalisés nécessitent une extension payante."
+  how:
+    - "Nous avons établi le classement sur quatre critères vérifiables : ce que comprend la version gratuite, le coût des formules payantes, le degré de maintenance du plugin et ce qu'en disent ses utilisateurs sur wordpress.org."
+    - "Nous n'avons pas réalisé de tests de vitesse, et nous n'avons pas testé chaque fonctionnalité à la main. Les valeurs proviennent des pages de chaque éditeur ; la page méthodologie explique les limites de cette approche."
+
+best-free-crm-plugins:
+  title: "Meilleurs plugins CRM WordPress gratuits ({year})"
+  nav: Meilleurs plugins CRM gratuits
+  description: "Ce que chaque plugin CRM WordPress gratuit inclut sans payer, des pipelines au support en passant par les campagnes e-mail, avec sources."
+  h1: Meilleurs plugins CRM WordPress gratuits
+  intro:
+    - "Chaque plugin présenté ici a une version gratuite, mais ils réservent des choses différentes aux formules payantes. L'un offre gratuitement un pipeline et fait payer les champs personnalisés. Un autre offre gratuitement l'automatisation et fait payer le pipeline."
+    - "Le bon CRM gratuit dépend de la fonctionnalité dont vous pouvez le moins vous passer."
+  picks:
+    plugixa-crm: "Entreprises, affaires, plusieurs pipelines, prévisions, dossiers de support, base de connaissances, portail client, rôles, campagnes e-mail et e-mails entrants, le tout gratuitement. Les champs personnalisés et les intégrations sont dans Pro."
+    fluentcrm: "Contacts, entreprises, champs personnalisés, campagnes et automatisation de base gratuits, avec un nombre illimité de contacts. Pas de pipeline, et l'export des contacts nécessite Pro."
+    hubspot: "Contacts, affaires, tickets, formulaires et e-mails marketing gratuits, hébergés par HubSpot. Limité à deux utilisateurs et 1 000 contacts, avec la marque HubSpot."
+    jetpack-crm: "Contacts, entreprises, champs personnalisés, devis, factures et portail client gratuits. Pas de pipeline ; les campagnes sont une extension payante."
+    wp-erp: "Contacts, entreprises, activités, e-mail bidirectionnel, rôles et factures gratuits, ces dernières via le module de comptabilité. Les affaires nécessitent une formule payante."
+    groundhogg: "Contacts, envois groupés, éditeur visuel d'automatisation, formulaires et rapports gratuits, avec un nombre illimité de contacts. Le pipeline nécessite une formule payante."
+  how:
+    - "Une fonctionnalité n'est considérée comme gratuite que si les pages de l'éditeur la placent dans la version gratuite. Lorsque nous n'avons pas pu confirmer la formule, le tableau indique « Non vérifié »."
+    - "Si vous avez besoin d'un pipeline commercial sans payer, seuls Plugixa CRM et la formule hébergée gratuite de HubSpot en proposent un."
+
+crm-plugins-with-sales-pipeline:
+  title: "Plugins CRM WordPress avec pipeline commercial ({year})"
+  nav: Plugins CRM avec pipeline commercial
+  description: "Les plugins CRM WordPress qui suivent les affaires par étapes sur un tableau de pipeline, leur coût et ceux qui le proposent gratuitement."
+  h1: Plugins CRM WordPress avec pipeline commercial
+  intro:
+    - "Un pipeline commercial suit les affaires à travers des étapes, avec pour chacune un montant et une date de clôture prévue. La plupart des plugins CRM WordPress n'en ont pas ; ils sont construits autour d'une liste de contacts et de l'e-mail."
+    - "Quatre des sept plugins présentés ici proposent des affaires sur un tableau kanban. Seuls deux l'incluent dans une version gratuite."
+  picks:
+    plugixa-crm: "Affaires, plusieurs pipelines avec leurs propres étapes, tableau kanban, prévisions pondérées et conversion des leads, le tout gratuit et stocké dans votre propre base de données."
+    hubspot: "Affaires et tableau kanban dans la formule hébergée gratuite. Plusieurs pipelines et les prévisions nécessitent une formule payante, et les données sont sur les serveurs de HubSpot."
+    wp-erp: "Affaires et tableau de pipeline avec la formule Growth, facturée par utilisateur, aux côtés des modules RH et comptabilité."
+    groundhogg: "Une extension de pipeline avec la formule Plus, à $480 par an, reliée à ses scénarios d'automatisation."
+  how:
+    - "Nous n'avons retenu un plugin que s'il propose des fiches d'affaires avec des étapes et une vue en tableau, selon la définition de la page méthodologie."
+    - "WP-CRM System a des opportunités avec une probabilité et un statut gagné ou perdu, mais sans étapes ni tableau ; il ne figure donc pas dans cette liste."
+
+crm-plugins-with-email-marketing:
+  title: "Plugins CRM WordPress avec e-mailing ({year})"
+  nav: Plugins CRM avec e-mailing
+  description: "Les plugins CRM WordPress qui envoient des newsletters et des e-mails automatisés, comparés sur l'automatisation, le prix et l'endroit où votre liste est stockée."
+  h1: Plugins CRM WordPress avec e-mailing
+  intro:
+    - "Beaucoup de CRM WordPress ont commencé comme outils d'e-mailing, et cela se voit. Ils sont performants pour les newsletters, les tags et les séquences automatisées, et plus légers côté ventes."
+    - "La sélection ci-dessous est classée selon l'étendue des fonctions d'e-mailing proposées, et leur prix."
+  picks:
+    fluentcrm: "Campagnes et automatisation de base gratuites, avec séquences, segments avancés et plus de 45 intégrations dans Pro. Nombre illimité de contacts dans toutes les formules."
+    groundhogg: "Envois groupés et éditeur visuel de scénarios d'automatisation gratuits, avec un nombre illimité de contacts et d'envois."
+    hubspot: "E-mails marketing et formulaires dans la formule hébergée gratuite, avec l'automatisation à partir de la formule payante Starter."
+    jetpack-crm: "Campagnes et automatisations sous forme d'extensions payantes, ou incluses dans la formule Entrepreneur."
+    plugixa-crm: "Les campagnes, les listes cibles et les envois groupés avec suivi des ouvertures et des clics sont gratuits. Il n'y a pas d'automatisation, il convient donc à des envois ponctuels plutôt qu'à des séquences."
+  how:
+    - "Nous avons regardé si les campagnes et l'automatisation sont gratuites, combien de contacts chaque formule autorise et si l'envoi nécessite un service externe."
+    - "Tous les plugins auto-hébergés envoient via votre propre configuration de messagerie ; la délivrabilité dépend donc de votre fournisseur SMTP."
+
+crm-plugins-for-woocommerce:
+  title: "Meilleurs plugins CRM WordPress pour WooCommerce ({year})"
+  nav: Plugins CRM pour WooCommerce
+  description: "Les plugins CRM WordPress qui relient les clients et commandes WooCommerce aux contacts, comparés sur ce qui est gratuit et sur le coût de chacun."
+  h1: Meilleurs plugins CRM pour WooCommerce
+  intro:
+    - "Un CRM pour une boutique WooCommerce doit relier chaque client à ses commandes, afin que vous puissiez voir qui achète quoi et agir en conséquence."
+    - "Certains plugins le font gratuitement. D'autres nécessitent une formule payante ou une extension séparée."
+  picks:
+    fluentcrm: "L'historique d'achats WooCommerce sur la fiche d'un contact est gratuit ; l'automatisation et les segments basés sur les achats sont dans Pro."
+    jetpack-crm: "La synchronisation WooCommerce est intégrée au plugin gratuit."
+    groundhogg: "Une intégration WooCommerce avec la formule Pro, à $600 par an, reliée à ses scénarios d'automatisation."
+    wp-erp: "Synchronisation WooCommerce avec la formule Growth, aux côtés du module de comptabilité."
+    plugixa-crm: "Relie les clients WooCommerce et leur historique de commandes aux contacts dans Pro."
+  how:
+    - "Nous n'avons retenu que les intégrations documentées par l'éditeur sur ses propres pages."
+    - "HubSpot n'est pas retenu, car sa synchronisation WooCommerce repose sur des applications tierces."
